@@ -1,0 +1,8 @@
+|kamal_mux2to1
+kamal_outputm <= inst.DB_MAX_OUTPUT_PORT_TYPE
+kamal_inputs => inst3.IN0
+kamal_inputs => inst4.IN0
+kamal_inputy => inst3.IN1
+kamal_inputx => inst2.IN0
+
+
