@@ -1,0 +1,72 @@
+$comment
+	File created using the following command:
+		vcd file kamal_Lab1_3to8DecoderLPM.msim.vcd -direction
+$end
+$date
+	Wed Feb 20 09:38:49 2019
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module kamal_Lab1_Decoder_vlg_vec_tst $end
+$var reg 3 ! data [2:0] $end
+$var wire 1 " eq7 $end
+$var wire 1 # sampler $end
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * LPM_DECODE_component|auto_generated|w_anode85w[3]~0_combout $end
+$var wire 1 + data~combout [2] $end
+$var wire 1 , data~combout [1] $end
+$var wire 1 - data~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0"
+x#
+0$
+1%
+x&
+1'
+1(
+1)
+0*
+0-
+0,
+0+
+$end
+#20000
+b100 !
+1+
+0#
+#40000
+b110 !
+b111 !
+b11 !
+1-
+1,
+0+
+1#
+#60000
+b1 !
+b0 !
+b100 !
+0-
+0,
+1+
+0#
+#100000
+b0 !
+0+
+1#
+#1000000

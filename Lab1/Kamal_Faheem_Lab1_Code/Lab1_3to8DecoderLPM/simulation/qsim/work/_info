@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\Files\Lab1_3to8DecoderLPM\simulation\qsim
+vkamal_Lab1_Decoder
+Z1 !s100 `Qd8F=CoL4d]^n;18jDLR0
+Z2 I`MoB0K4k;eSVc8K:`QQT`0
+Z3 VI0hCAJEHB:[80LHXm@:>Z1
+Z4 dC:\altera\13.0sp1\Files\Lab1_3to8DecoderLPM\simulation\qsim
+Z5 w1550673527
+Z6 8kamal_Lab1_3to8DecoderLPM.vo
+Z7 Fkamal_Lab1_3to8DecoderLPM.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|kamal_Lab1_3to8DecoderLPM.vo|
+Z10 o-work work -O0
+Z11 nkamal_@lab1_@decoder
+!i10b 1
+!s85 0
+Z12 !s108 1550673528.690000
+Z13 !s107 kamal_Lab1_3to8DecoderLPM.vo|
+!s101 -O0
+vkamal_Lab1_Decoder_vlg_check_tst
+!i10b 1
+Z14 !s100 <TzdUcd`[_89a=F>YeAXH1
+Z15 I0<PA=g3<a;U8BoYN3bEZP1
+Z16 VWc6LNfSaW0OdM3ISYhfPH2
+R4
+R5
+Z17 8kamal_Lab1_3to8DecoderLPM.vt
+Z18 Fkamal_Lab1_3to8DecoderLPM.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z19 !s108 1550673529.024000
+Z20 !s107 kamal_Lab1_3to8DecoderLPM.vt|
+Z21 !s90 -work|work|kamal_Lab1_3to8DecoderLPM.vt|
+!s101 -O0
+R10
+Z22 nkamal_@lab1_@decoder_vlg_check_tst
+vkamal_Lab1_Decoder_vlg_sample_tst
+!i10b 1
+Z23 !s100 =UKSJfNkW`OOlY2ngc:l10
+Z24 IJCD7@RSf>gTzSZBg5IQnc3
+Z25 VlVnRK:jH>ag^oZSc^]lDP0
+R4
+R5
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z26 nkamal_@lab1_@decoder_vlg_sample_tst
+vkamal_Lab1_Decoder_vlg_vec_tst
+!i10b 1
+!s100 fU<BoL7f_oWoTJzRFQ]XF1
+INNzB@HUD9JiCHnh2W8UWD3
+Z27 V@GG?7E[zc[3Hb3JPYHdQ@2
+R4
+R5
+R17
+R18
+Z28 L0 152
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z29 nkamal_@lab1_@decoder_vlg_vec_tst
