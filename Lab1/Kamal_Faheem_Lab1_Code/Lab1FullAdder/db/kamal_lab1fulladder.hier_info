@@ -1,0 +1,11 @@
+|kamal_lab1fulladder
+kamal_outputs <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+kamal_inputa => inst3.IN0
+kamal_inputa => inst.IN0
+kamal_inputb => inst3.IN1
+kamal_inputb => inst.IN1
+kamal_inputCin => inst4.IN1
+kamal_inputCin => inst6.IN1
+kamal_outputCout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
