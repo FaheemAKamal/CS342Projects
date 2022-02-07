@@ -1,0 +1,15 @@
+|Kamal_dectohex2
+hex_digit[0] => ~NO_FANOUT~
+hex_digit[1] => ~NO_FANOUT~
+hex_digit[2] => ~NO_FANOUT~
+hex_digit[3] => segment_b.DATAIN
+hex_digit[3] => segment_c.DATAIN
+segment_a <= <VCC>
+segment_b <= hex_digit[3].DB_MAX_OUTPUT_PORT_TYPE
+segment_c <= hex_digit[3].DB_MAX_OUTPUT_PORT_TYPE
+segment_d <= <VCC>
+segment_e <= <VCC>
+segment_f <= <VCC>
+segment_g <= <GND>
+
+
