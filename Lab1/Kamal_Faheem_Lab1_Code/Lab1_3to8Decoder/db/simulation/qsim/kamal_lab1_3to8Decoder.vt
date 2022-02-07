@@ -1,0 +1,425 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "02/19/2019 00:47:25"
+                                                                        
+// Verilog Self-Checking Test Bench (with test vectors) for design :    kamal_lab1_3to8Decoder
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module kamal_lab1_3to8Decoder_vlg_sample_tst(
+	kamal_input1,
+	kamal_input2,
+	kamal_input3,
+	sampler_tx
+);
+input  kamal_input1;
+input  kamal_input2;
+input  kamal_input3;
+output sampler_tx;
+
+reg sample;
+time current_time;
+always @(kamal_input1 or kamal_input2 or kamal_input3)
+                                                                                
+begin                                                 
+ if ($realtime > 0)                                   
+ begin                                                
+	if ($realtime == 0 || $realtime != current_time)  
+	begin									          
+		if (sample === 1'bx)                          
+			sample = 0;                               
+		else                                          
+			sample = ~sample;                         
+	end										          
+	current_time = $realtime;					      
+ end                                                  
+end                                                   
+
+assign sampler_tx = sample;
+endmodule
+
+module kamal_lab1_3to8Decoder_vlg_check_tst (
+	kamal_outputz0,
+	kamal_outputz1,
+	kamal_outputz2,
+	kamal_outputz3,
+	kamal_outputz4,
+	kamal_outputz5,
+	kamal_outputz6,
+	kamal_outputz7,
+	sampler_rx
+);
+input  kamal_outputz0;
+input  kamal_outputz1;
+input  kamal_outputz2;
+input  kamal_outputz3;
+input  kamal_outputz4;
+input  kamal_outputz5;
+input  kamal_outputz6;
+input  kamal_outputz7;
+input sampler_rx;
+
+reg  kamal_outputz0_expected;
+reg  kamal_outputz1_expected;
+reg  kamal_outputz2_expected;
+reg  kamal_outputz3_expected;
+reg  kamal_outputz4_expected;
+reg  kamal_outputz5_expected;
+reg  kamal_outputz6_expected;
+reg  kamal_outputz7_expected;
+
+reg  kamal_outputz0_prev;
+reg  kamal_outputz1_prev;
+reg  kamal_outputz2_prev;
+reg  kamal_outputz3_prev;
+reg  kamal_outputz4_prev;
+reg  kamal_outputz5_prev;
+reg  kamal_outputz6_prev;
+reg  kamal_outputz7_prev;
+
+reg  kamal_outputz0_expected_prev;
+reg  kamal_outputz1_expected_prev;
+reg  kamal_outputz2_expected_prev;
+reg  kamal_outputz3_expected_prev;
+reg  kamal_outputz4_expected_prev;
+reg  kamal_outputz5_expected_prev;
+reg  kamal_outputz6_expected_prev;
+reg  kamal_outputz7_expected_prev;
+
+reg  last_kamal_outputz0_exp;
+reg  last_kamal_outputz1_exp;
+reg  last_kamal_outputz2_exp;
+reg  last_kamal_outputz3_exp;
+reg  last_kamal_outputz4_exp;
+reg  last_kamal_outputz5_exp;
+reg  last_kamal_outputz6_exp;
+reg  last_kamal_outputz7_exp;
+
+reg trigger;
+
+integer i;
+integer nummismatches;
+
+reg [1:8] on_first_change ;
+
+
+initial
+begin
+trigger = 0;
+i = 0;
+nummismatches = 0;
+on_first_change = 8'b1;
+end
+
+// update real /o prevs
+
+always @(trigger)
+begin
+	kamal_outputz0_prev = kamal_outputz0;
+	kamal_outputz1_prev = kamal_outputz1;
+	kamal_outputz2_prev = kamal_outputz2;
+	kamal_outputz3_prev = kamal_outputz3;
+	kamal_outputz4_prev = kamal_outputz4;
+	kamal_outputz5_prev = kamal_outputz5;
+	kamal_outputz6_prev = kamal_outputz6;
+	kamal_outputz7_prev = kamal_outputz7;
+end
+
+// update expected /o prevs
+
+always @(trigger)
+begin
+	kamal_outputz0_expected_prev = kamal_outputz0_expected;
+	kamal_outputz1_expected_prev = kamal_outputz1_expected;
+	kamal_outputz2_expected_prev = kamal_outputz2_expected;
+	kamal_outputz3_expected_prev = kamal_outputz3_expected;
+	kamal_outputz4_expected_prev = kamal_outputz4_expected;
+	kamal_outputz5_expected_prev = kamal_outputz5_expected;
+	kamal_outputz6_expected_prev = kamal_outputz6_expected;
+	kamal_outputz7_expected_prev = kamal_outputz7_expected;
+end
+
+
+
+// expected kamal_outputz0
+initial
+begin
+	kamal_outputz0_expected = 1'bX;
+end 
+
+// expected kamal_outputz1
+initial
+begin
+	kamal_outputz1_expected = 1'bX;
+end 
+
+// expected kamal_outputz2
+initial
+begin
+	kamal_outputz2_expected = 1'bX;
+end 
+
+// expected kamal_outputz3
+initial
+begin
+	kamal_outputz3_expected = 1'bX;
+end 
+
+// expected kamal_outputz4
+initial
+begin
+	kamal_outputz4_expected = 1'bX;
+end 
+
+// expected kamal_outputz5
+initial
+begin
+	kamal_outputz5_expected = 1'bX;
+end 
+
+// expected kamal_outputz6
+initial
+begin
+	kamal_outputz6_expected = 1'bX;
+end 
+
+// expected kamal_outputz7
+initial
+begin
+	kamal_outputz7_expected = 1'bX;
+end 
+// generate trigger
+always @(kamal_outputz0_expected or kamal_outputz0 or kamal_outputz1_expected or kamal_outputz1 or kamal_outputz2_expected or kamal_outputz2 or kamal_outputz3_expected or kamal_outputz3 or kamal_outputz4_expected or kamal_outputz4 or kamal_outputz5_expected or kamal_outputz5 or kamal_outputz6_expected or kamal_outputz6 or kamal_outputz7_expected or kamal_outputz7)
+begin
+	trigger <= ~trigger;
+end
+
+always @(posedge sampler_rx or negedge sampler_rx)
+begin
+`ifdef debug_tbench
+	$display("Scanning pattern %d @time = %t",i,$realtime );
+	i = i + 1;
+	$display("| expected kamal_outputz0 = %b | expected kamal_outputz1 = %b | expected kamal_outputz2 = %b | expected kamal_outputz3 = %b | expected kamal_outputz4 = %b | expected kamal_outputz5 = %b | expected kamal_outputz6 = %b | expected kamal_outputz7 = %b | ",kamal_outputz0_expected_prev,kamal_outputz1_expected_prev,kamal_outputz2_expected_prev,kamal_outputz3_expected_prev,kamal_outputz4_expected_prev,kamal_outputz5_expected_prev,kamal_outputz6_expected_prev,kamal_outputz7_expected_prev);
+	$display("| real kamal_outputz0 = %b | real kamal_outputz1 = %b | real kamal_outputz2 = %b | real kamal_outputz3 = %b | real kamal_outputz4 = %b | real kamal_outputz5 = %b | real kamal_outputz6 = %b | real kamal_outputz7 = %b | ",kamal_outputz0_prev,kamal_outputz1_prev,kamal_outputz2_prev,kamal_outputz3_prev,kamal_outputz4_prev,kamal_outputz5_prev,kamal_outputz6_prev,kamal_outputz7_prev);
+`endif
+	if (
+		( kamal_outputz0_expected_prev !== 1'bx ) && ( kamal_outputz0_prev !== kamal_outputz0_expected_prev )
+		&& ((kamal_outputz0_expected_prev !== last_kamal_outputz0_exp) ||
+			on_first_change[1])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port kamal_outputz0 :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", kamal_outputz0_expected_prev);
+		$display ("     Real value = %b", kamal_outputz0_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[1] = 1'b0;
+		last_kamal_outputz0_exp = kamal_outputz0_expected_prev;
+	end
+	if (
+		( kamal_outputz1_expected_prev !== 1'bx ) && ( kamal_outputz1_prev !== kamal_outputz1_expected_prev )
+		&& ((kamal_outputz1_expected_prev !== last_kamal_outputz1_exp) ||
+			on_first_change[2])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port kamal_outputz1 :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", kamal_outputz1_expected_prev);
+		$display ("     Real value = %b", kamal_outputz1_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[2] = 1'b0;
+		last_kamal_outputz1_exp = kamal_outputz1_expected_prev;
+	end
+	if (
+		( kamal_outputz2_expected_prev !== 1'bx ) && ( kamal_outputz2_prev !== kamal_outputz2_expected_prev )
+		&& ((kamal_outputz2_expected_prev !== last_kamal_outputz2_exp) ||
+			on_first_change[3])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port kamal_outputz2 :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", kamal_outputz2_expected_prev);
+		$display ("     Real value = %b", kamal_outputz2_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[3] = 1'b0;
+		last_kamal_outputz2_exp = kamal_outputz2_expected_prev;
+	end
+	if (
+		( kamal_outputz3_expected_prev !== 1'bx ) && ( kamal_outputz3_prev !== kamal_outputz3_expected_prev )
+		&& ((kamal_outputz3_expected_prev !== last_kamal_outputz3_exp) ||
+			on_first_change[4])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port kamal_outputz3 :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", kamal_outputz3_expected_prev);
+		$display ("     Real value = %b", kamal_outputz3_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[4] = 1'b0;
+		last_kamal_outputz3_exp = kamal_outputz3_expected_prev;
+	end
+	if (
+		( kamal_outputz4_expected_prev !== 1'bx ) && ( kamal_outputz4_prev !== kamal_outputz4_expected_prev )
+		&& ((kamal_outputz4_expected_prev !== last_kamal_outputz4_exp) ||
+			on_first_change[5])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port kamal_outputz4 :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", kamal_outputz4_expected_prev);
+		$display ("     Real value = %b", kamal_outputz4_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[5] = 1'b0;
+		last_kamal_outputz4_exp = kamal_outputz4_expected_prev;
+	end
+	if (
+		( kamal_outputz5_expected_prev !== 1'bx ) && ( kamal_outputz5_prev !== kamal_outputz5_expected_prev )
+		&& ((kamal_outputz5_expected_prev !== last_kamal_outputz5_exp) ||
+			on_first_change[6])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port kamal_outputz5 :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", kamal_outputz5_expected_prev);
+		$display ("     Real value = %b", kamal_outputz5_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[6] = 1'b0;
+		last_kamal_outputz5_exp = kamal_outputz5_expected_prev;
+	end
+	if (
+		( kamal_outputz6_expected_prev !== 1'bx ) && ( kamal_outputz6_prev !== kamal_outputz6_expected_prev )
+		&& ((kamal_outputz6_expected_prev !== last_kamal_outputz6_exp) ||
+			on_first_change[7])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port kamal_outputz6 :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", kamal_outputz6_expected_prev);
+		$display ("     Real value = %b", kamal_outputz6_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[7] = 1'b0;
+		last_kamal_outputz6_exp = kamal_outputz6_expected_prev;
+	end
+	if (
+		( kamal_outputz7_expected_prev !== 1'bx ) && ( kamal_outputz7_prev !== kamal_outputz7_expected_prev )
+		&& ((kamal_outputz7_expected_prev !== last_kamal_outputz7_exp) ||
+			on_first_change[8])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port kamal_outputz7 :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", kamal_outputz7_expected_prev);
+		$display ("     Real value = %b", kamal_outputz7_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[8] = 1'b0;
+		last_kamal_outputz7_exp = kamal_outputz7_expected_prev;
+	end
+
+	trigger <= ~trigger;
+end
+initial 
+
+begin 
+$timeformat(-12,3," ps",6);
+#1000000;
+if (nummismatches > 0)
+	$display ("%d mismatched vectors : Simulation failed !",nummismatches);
+else
+	$display ("Simulation passed !");
+$finish;
+end 
+endmodule
+
+module kamal_lab1_3to8Decoder_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg kamal_input1;
+reg kamal_input2;
+reg kamal_input3;
+// wires                                               
+wire kamal_outputz0;
+wire kamal_outputz1;
+wire kamal_outputz2;
+wire kamal_outputz3;
+wire kamal_outputz4;
+wire kamal_outputz5;
+wire kamal_outputz6;
+wire kamal_outputz7;
+
+wire sampler;                             
+
+// assign statements (if any)                          
+kamal_lab1_3to8Decoder i1 (
+// port map - connection between master ports and signals/registers   
+	.kamal_input1(kamal_input1),
+	.kamal_input2(kamal_input2),
+	.kamal_input3(kamal_input3),
+	.kamal_outputz0(kamal_outputz0),
+	.kamal_outputz1(kamal_outputz1),
+	.kamal_outputz2(kamal_outputz2),
+	.kamal_outputz3(kamal_outputz3),
+	.kamal_outputz4(kamal_outputz4),
+	.kamal_outputz5(kamal_outputz5),
+	.kamal_outputz6(kamal_outputz6),
+	.kamal_outputz7(kamal_outputz7)
+);
+
+// kamal_input1
+initial
+begin
+	kamal_input1 = 1'b0;
+	kamal_input1 = #10000 1'b1;
+	kamal_input1 = #20000 1'b0;
+	kamal_input1 = #20000 1'b1;
+	kamal_input1 = #20000 1'b0;
+end 
+
+// kamal_input2
+initial
+begin
+	kamal_input2 = 1'b1;
+	kamal_input2 = #10000 1'b0;
+	kamal_input2 = #20000 1'b1;
+	kamal_input2 = #20000 1'b0;
+end 
+
+// kamal_input3
+initial
+begin
+	kamal_input3 = 1'b0;
+	kamal_input3 = #10000 1'b1;
+	kamal_input3 = #60000 1'b0;
+end 
+
+kamal_lab1_3to8Decoder_vlg_sample_tst tb_sample (
+	.kamal_input1(kamal_input1),
+	.kamal_input2(kamal_input2),
+	.kamal_input3(kamal_input3),
+	.sampler_tx(sampler)
+);
+
+kamal_lab1_3to8Decoder_vlg_check_tst tb_out(
+	.kamal_outputz0(kamal_outputz0),
+	.kamal_outputz1(kamal_outputz1),
+	.kamal_outputz2(kamal_outputz2),
+	.kamal_outputz3(kamal_outputz3),
+	.kamal_outputz4(kamal_outputz4),
+	.kamal_outputz5(kamal_outputz5),
+	.kamal_outputz6(kamal_outputz6),
+	.kamal_outputz7(kamal_outputz7),
+	.sampler_rx(sampler)
+);
+endmodule
+

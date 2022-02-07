@@ -1,0 +1,625 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+
+// DATE "02/19/2019 00:47:26"
+
+// 
+// Device: Altera EP2C35F672C6 Package FBGA672
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module kamal_lab1_3to8Decoder (
+	kamal_outputz0,
+	kamal_input1,
+	kamal_input2,
+	kamal_input3,
+	kamal_outputz1,
+	kamal_outputz2,
+	kamal_outputz3,
+	kamal_outputz4,
+	kamal_outputz5,
+	kamal_outputz6,
+	kamal_outputz7);
+output 	kamal_outputz0;
+input 	kamal_input1;
+input 	kamal_input2;
+input 	kamal_input3;
+output 	kamal_outputz1;
+output 	kamal_outputz2;
+output 	kamal_outputz3;
+output 	kamal_outputz4;
+output 	kamal_outputz5;
+output 	kamal_outputz6;
+output 	kamal_outputz7;
+
+// Design Ports Information
+// kamal_outputz0	=>  Location: PIN_R8,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+// kamal_outputz1	=>  Location: PIN_Y4,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+// kamal_outputz2	=>  Location: PIN_V6,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+// kamal_outputz3	=>  Location: PIN_AA1,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+// kamal_outputz4	=>  Location: PIN_Y3,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+// kamal_outputz5	=>  Location: PIN_Y1,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+// kamal_outputz6	=>  Location: PIN_AA2,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+// kamal_outputz7	=>  Location: PIN_V5,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+// kamal_input3	=>  Location: PIN_C13,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+// kamal_input1	=>  Location: PIN_D13,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+// kamal_input2	=>  Location: PIN_T8,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \kamal_input3~combout ;
+wire \kamal_input2~combout ;
+wire \kamal_input1~combout ;
+wire \kamal_inst4~0_combout ;
+wire \kamal_inst4~1_combout ;
+wire \kamal_inst4~2_combout ;
+wire \kamal_inst4~3_combout ;
+wire \kamal_inst4~4_combout ;
+wire \kamal_inst4~5_combout ;
+wire \kamal_inst4~6_combout ;
+wire \kamal_inst4~7_combout ;
+
+
+// Location: PIN_C13,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+cycloneii_io \kamal_input3~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\kamal_input3~combout ),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(kamal_input3));
+// synopsys translate_off
+defparam \kamal_input3~I .input_async_reset = "none";
+defparam \kamal_input3~I .input_power_up = "low";
+defparam \kamal_input3~I .input_register_mode = "none";
+defparam \kamal_input3~I .input_sync_reset = "none";
+defparam \kamal_input3~I .oe_async_reset = "none";
+defparam \kamal_input3~I .oe_power_up = "low";
+defparam \kamal_input3~I .oe_register_mode = "none";
+defparam \kamal_input3~I .oe_sync_reset = "none";
+defparam \kamal_input3~I .operation_mode = "input";
+defparam \kamal_input3~I .output_async_reset = "none";
+defparam \kamal_input3~I .output_power_up = "low";
+defparam \kamal_input3~I .output_register_mode = "none";
+defparam \kamal_input3~I .output_sync_reset = "none";
+// synopsys translate_on
+
+// Location: PIN_T8,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+cycloneii_io \kamal_input2~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\kamal_input2~combout ),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(kamal_input2));
+// synopsys translate_off
+defparam \kamal_input2~I .input_async_reset = "none";
+defparam \kamal_input2~I .input_power_up = "low";
+defparam \kamal_input2~I .input_register_mode = "none";
+defparam \kamal_input2~I .input_sync_reset = "none";
+defparam \kamal_input2~I .oe_async_reset = "none";
+defparam \kamal_input2~I .oe_power_up = "low";
+defparam \kamal_input2~I .oe_register_mode = "none";
+defparam \kamal_input2~I .oe_sync_reset = "none";
+defparam \kamal_input2~I .operation_mode = "input";
+defparam \kamal_input2~I .output_async_reset = "none";
+defparam \kamal_input2~I .output_power_up = "low";
+defparam \kamal_input2~I .output_register_mode = "none";
+defparam \kamal_input2~I .output_sync_reset = "none";
+// synopsys translate_on
+
+// Location: PIN_D13,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+cycloneii_io \kamal_input1~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\kamal_input1~combout ),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(kamal_input1));
+// synopsys translate_off
+defparam \kamal_input1~I .input_async_reset = "none";
+defparam \kamal_input1~I .input_power_up = "low";
+defparam \kamal_input1~I .input_register_mode = "none";
+defparam \kamal_input1~I .input_sync_reset = "none";
+defparam \kamal_input1~I .oe_async_reset = "none";
+defparam \kamal_input1~I .oe_power_up = "low";
+defparam \kamal_input1~I .oe_register_mode = "none";
+defparam \kamal_input1~I .oe_sync_reset = "none";
+defparam \kamal_input1~I .operation_mode = "input";
+defparam \kamal_input1~I .output_async_reset = "none";
+defparam \kamal_input1~I .output_power_up = "low";
+defparam \kamal_input1~I .output_register_mode = "none";
+defparam \kamal_input1~I .output_sync_reset = "none";
+// synopsys translate_on
+
+// Location: LCCOMB_X1_Y8_N24
+cycloneii_lcell_comb \kamal_inst4~0 (
+// Equation(s):
+// \kamal_inst4~0_combout  = (!\kamal_input3~combout  & (!\kamal_input2~combout  & !\kamal_input1~combout ))
+
+	.dataa(\kamal_input3~combout ),
+	.datab(\kamal_input2~combout ),
+	.datac(\kamal_input1~combout ),
+	.datad(vcc),
+	.cin(gnd),
+	.combout(\kamal_inst4~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \kamal_inst4~0 .lut_mask = 16'h0101;
+defparam \kamal_inst4~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X1_Y8_N18
+cycloneii_lcell_comb \kamal_inst4~1 (
+// Equation(s):
+// \kamal_inst4~1_combout  = (\kamal_input3~combout  & (!\kamal_input2~combout  & !\kamal_input1~combout ))
+
+	.dataa(\kamal_input3~combout ),
+	.datab(\kamal_input2~combout ),
+	.datac(\kamal_input1~combout ),
+	.datad(vcc),
+	.cin(gnd),
+	.combout(\kamal_inst4~1_combout ),
+	.cout());
+// synopsys translate_off
+defparam \kamal_inst4~1 .lut_mask = 16'h0202;
+defparam \kamal_inst4~1 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X1_Y8_N12
+cycloneii_lcell_comb \kamal_inst4~2 (
+// Equation(s):
+// \kamal_inst4~2_combout  = (!\kamal_input3~combout  & (\kamal_input2~combout  & !\kamal_input1~combout ))
+
+	.dataa(\kamal_input3~combout ),
+	.datab(\kamal_input2~combout ),
+	.datac(\kamal_input1~combout ),
+	.datad(vcc),
+	.cin(gnd),
+	.combout(\kamal_inst4~2_combout ),
+	.cout());
+// synopsys translate_off
+defparam \kamal_inst4~2 .lut_mask = 16'h0404;
+defparam \kamal_inst4~2 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X1_Y8_N14
+cycloneii_lcell_comb \kamal_inst4~3 (
+// Equation(s):
+// \kamal_inst4~3_combout  = (\kamal_input3~combout  & (\kamal_input2~combout  & !\kamal_input1~combout ))
+
+	.dataa(\kamal_input3~combout ),
+	.datab(\kamal_input2~combout ),
+	.datac(\kamal_input1~combout ),
+	.datad(vcc),
+	.cin(gnd),
+	.combout(\kamal_inst4~3_combout ),
+	.cout());
+// synopsys translate_off
+defparam \kamal_inst4~3 .lut_mask = 16'h0808;
+defparam \kamal_inst4~3 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X1_Y8_N16
+cycloneii_lcell_comb \kamal_inst4~4 (
+// Equation(s):
+// \kamal_inst4~4_combout  = (!\kamal_input3~combout  & (!\kamal_input2~combout  & \kamal_input1~combout ))
+
+	.dataa(\kamal_input3~combout ),
+	.datab(\kamal_input2~combout ),
+	.datac(\kamal_input1~combout ),
+	.datad(vcc),
+	.cin(gnd),
+	.combout(\kamal_inst4~4_combout ),
+	.cout());
+// synopsys translate_off
+defparam \kamal_inst4~4 .lut_mask = 16'h1010;
+defparam \kamal_inst4~4 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X1_Y8_N10
+cycloneii_lcell_comb \kamal_inst4~5 (
+// Equation(s):
+// \kamal_inst4~5_combout  = (\kamal_input3~combout  & (!\kamal_input2~combout  & \kamal_input1~combout ))
+
+	.dataa(\kamal_input3~combout ),
+	.datab(\kamal_input2~combout ),
+	.datac(\kamal_input1~combout ),
+	.datad(vcc),
+	.cin(gnd),
+	.combout(\kamal_inst4~5_combout ),
+	.cout());
+// synopsys translate_off
+defparam \kamal_inst4~5 .lut_mask = 16'h2020;
+defparam \kamal_inst4~5 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X1_Y8_N28
+cycloneii_lcell_comb \kamal_inst4~6 (
+// Equation(s):
+// \kamal_inst4~6_combout  = (!\kamal_input3~combout  & (\kamal_input2~combout  & \kamal_input1~combout ))
+
+	.dataa(\kamal_input3~combout ),
+	.datab(\kamal_input2~combout ),
+	.datac(\kamal_input1~combout ),
+	.datad(vcc),
+	.cin(gnd),
+	.combout(\kamal_inst4~6_combout ),
+	.cout());
+// synopsys translate_off
+defparam \kamal_inst4~6 .lut_mask = 16'h4040;
+defparam \kamal_inst4~6 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X1_Y8_N30
+cycloneii_lcell_comb \kamal_inst4~7 (
+// Equation(s):
+// \kamal_inst4~7_combout  = (\kamal_input3~combout  & (\kamal_input2~combout  & \kamal_input1~combout ))
+
+	.dataa(\kamal_input3~combout ),
+	.datab(\kamal_input2~combout ),
+	.datac(\kamal_input1~combout ),
+	.datad(vcc),
+	.cin(gnd),
+	.combout(\kamal_inst4~7_combout ),
+	.cout());
+// synopsys translate_off
+defparam \kamal_inst4~7 .lut_mask = 16'h8080;
+defparam \kamal_inst4~7 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: PIN_R8,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+cycloneii_io \kamal_outputz0~I (
+	.datain(\kamal_inst4~0_combout ),
+	.oe(vcc),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(kamal_outputz0));
+// synopsys translate_off
+defparam \kamal_outputz0~I .input_async_reset = "none";
+defparam \kamal_outputz0~I .input_power_up = "low";
+defparam \kamal_outputz0~I .input_register_mode = "none";
+defparam \kamal_outputz0~I .input_sync_reset = "none";
+defparam \kamal_outputz0~I .oe_async_reset = "none";
+defparam \kamal_outputz0~I .oe_power_up = "low";
+defparam \kamal_outputz0~I .oe_register_mode = "none";
+defparam \kamal_outputz0~I .oe_sync_reset = "none";
+defparam \kamal_outputz0~I .operation_mode = "output";
+defparam \kamal_outputz0~I .output_async_reset = "none";
+defparam \kamal_outputz0~I .output_power_up = "low";
+defparam \kamal_outputz0~I .output_register_mode = "none";
+defparam \kamal_outputz0~I .output_sync_reset = "none";
+// synopsys translate_on
+
+// Location: PIN_Y4,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+cycloneii_io \kamal_outputz1~I (
+	.datain(\kamal_inst4~1_combout ),
+	.oe(vcc),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(kamal_outputz1));
+// synopsys translate_off
+defparam \kamal_outputz1~I .input_async_reset = "none";
+defparam \kamal_outputz1~I .input_power_up = "low";
+defparam \kamal_outputz1~I .input_register_mode = "none";
+defparam \kamal_outputz1~I .input_sync_reset = "none";
+defparam \kamal_outputz1~I .oe_async_reset = "none";
+defparam \kamal_outputz1~I .oe_power_up = "low";
+defparam \kamal_outputz1~I .oe_register_mode = "none";
+defparam \kamal_outputz1~I .oe_sync_reset = "none";
+defparam \kamal_outputz1~I .operation_mode = "output";
+defparam \kamal_outputz1~I .output_async_reset = "none";
+defparam \kamal_outputz1~I .output_power_up = "low";
+defparam \kamal_outputz1~I .output_register_mode = "none";
+defparam \kamal_outputz1~I .output_sync_reset = "none";
+// synopsys translate_on
+
+// Location: PIN_V6,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+cycloneii_io \kamal_outputz2~I (
+	.datain(\kamal_inst4~2_combout ),
+	.oe(vcc),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(kamal_outputz2));
+// synopsys translate_off
+defparam \kamal_outputz2~I .input_async_reset = "none";
+defparam \kamal_outputz2~I .input_power_up = "low";
+defparam \kamal_outputz2~I .input_register_mode = "none";
+defparam \kamal_outputz2~I .input_sync_reset = "none";
+defparam \kamal_outputz2~I .oe_async_reset = "none";
+defparam \kamal_outputz2~I .oe_power_up = "low";
+defparam \kamal_outputz2~I .oe_register_mode = "none";
+defparam \kamal_outputz2~I .oe_sync_reset = "none";
+defparam \kamal_outputz2~I .operation_mode = "output";
+defparam \kamal_outputz2~I .output_async_reset = "none";
+defparam \kamal_outputz2~I .output_power_up = "low";
+defparam \kamal_outputz2~I .output_register_mode = "none";
+defparam \kamal_outputz2~I .output_sync_reset = "none";
+// synopsys translate_on
+
+// Location: PIN_AA1,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+cycloneii_io \kamal_outputz3~I (
+	.datain(\kamal_inst4~3_combout ),
+	.oe(vcc),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(kamal_outputz3));
+// synopsys translate_off
+defparam \kamal_outputz3~I .input_async_reset = "none";
+defparam \kamal_outputz3~I .input_power_up = "low";
+defparam \kamal_outputz3~I .input_register_mode = "none";
+defparam \kamal_outputz3~I .input_sync_reset = "none";
+defparam \kamal_outputz3~I .oe_async_reset = "none";
+defparam \kamal_outputz3~I .oe_power_up = "low";
+defparam \kamal_outputz3~I .oe_register_mode = "none";
+defparam \kamal_outputz3~I .oe_sync_reset = "none";
+defparam \kamal_outputz3~I .operation_mode = "output";
+defparam \kamal_outputz3~I .output_async_reset = "none";
+defparam \kamal_outputz3~I .output_power_up = "low";
+defparam \kamal_outputz3~I .output_register_mode = "none";
+defparam \kamal_outputz3~I .output_sync_reset = "none";
+// synopsys translate_on
+
+// Location: PIN_Y3,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+cycloneii_io \kamal_outputz4~I (
+	.datain(\kamal_inst4~4_combout ),
+	.oe(vcc),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(kamal_outputz4));
+// synopsys translate_off
+defparam \kamal_outputz4~I .input_async_reset = "none";
+defparam \kamal_outputz4~I .input_power_up = "low";
+defparam \kamal_outputz4~I .input_register_mode = "none";
+defparam \kamal_outputz4~I .input_sync_reset = "none";
+defparam \kamal_outputz4~I .oe_async_reset = "none";
+defparam \kamal_outputz4~I .oe_power_up = "low";
+defparam \kamal_outputz4~I .oe_register_mode = "none";
+defparam \kamal_outputz4~I .oe_sync_reset = "none";
+defparam \kamal_outputz4~I .operation_mode = "output";
+defparam \kamal_outputz4~I .output_async_reset = "none";
+defparam \kamal_outputz4~I .output_power_up = "low";
+defparam \kamal_outputz4~I .output_register_mode = "none";
+defparam \kamal_outputz4~I .output_sync_reset = "none";
+// synopsys translate_on
+
+// Location: PIN_Y1,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+cycloneii_io \kamal_outputz5~I (
+	.datain(\kamal_inst4~5_combout ),
+	.oe(vcc),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(kamal_outputz5));
+// synopsys translate_off
+defparam \kamal_outputz5~I .input_async_reset = "none";
+defparam \kamal_outputz5~I .input_power_up = "low";
+defparam \kamal_outputz5~I .input_register_mode = "none";
+defparam \kamal_outputz5~I .input_sync_reset = "none";
+defparam \kamal_outputz5~I .oe_async_reset = "none";
+defparam \kamal_outputz5~I .oe_power_up = "low";
+defparam \kamal_outputz5~I .oe_register_mode = "none";
+defparam \kamal_outputz5~I .oe_sync_reset = "none";
+defparam \kamal_outputz5~I .operation_mode = "output";
+defparam \kamal_outputz5~I .output_async_reset = "none";
+defparam \kamal_outputz5~I .output_power_up = "low";
+defparam \kamal_outputz5~I .output_register_mode = "none";
+defparam \kamal_outputz5~I .output_sync_reset = "none";
+// synopsys translate_on
+
+// Location: PIN_AA2,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+cycloneii_io \kamal_outputz6~I (
+	.datain(\kamal_inst4~6_combout ),
+	.oe(vcc),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(kamal_outputz6));
+// synopsys translate_off
+defparam \kamal_outputz6~I .input_async_reset = "none";
+defparam \kamal_outputz6~I .input_power_up = "low";
+defparam \kamal_outputz6~I .input_register_mode = "none";
+defparam \kamal_outputz6~I .input_sync_reset = "none";
+defparam \kamal_outputz6~I .oe_async_reset = "none";
+defparam \kamal_outputz6~I .oe_power_up = "low";
+defparam \kamal_outputz6~I .oe_register_mode = "none";
+defparam \kamal_outputz6~I .oe_sync_reset = "none";
+defparam \kamal_outputz6~I .operation_mode = "output";
+defparam \kamal_outputz6~I .output_async_reset = "none";
+defparam \kamal_outputz6~I .output_power_up = "low";
+defparam \kamal_outputz6~I .output_register_mode = "none";
+defparam \kamal_outputz6~I .output_sync_reset = "none";
+// synopsys translate_on
+
+// Location: PIN_V5,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+cycloneii_io \kamal_outputz7~I (
+	.datain(\kamal_inst4~7_combout ),
+	.oe(vcc),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(kamal_outputz7));
+// synopsys translate_off
+defparam \kamal_outputz7~I .input_async_reset = "none";
+defparam \kamal_outputz7~I .input_power_up = "low";
+defparam \kamal_outputz7~I .input_register_mode = "none";
+defparam \kamal_outputz7~I .input_sync_reset = "none";
+defparam \kamal_outputz7~I .oe_async_reset = "none";
+defparam \kamal_outputz7~I .oe_power_up = "low";
+defparam \kamal_outputz7~I .oe_register_mode = "none";
+defparam \kamal_outputz7~I .oe_sync_reset = "none";
+defparam \kamal_outputz7~I .operation_mode = "output";
+defparam \kamal_outputz7~I .output_async_reset = "none";
+defparam \kamal_outputz7~I .output_power_up = "low";
+defparam \kamal_outputz7~I .output_register_mode = "none";
+defparam \kamal_outputz7~I .output_sync_reset = "none";
+// synopsys translate_on
+
+endmodule

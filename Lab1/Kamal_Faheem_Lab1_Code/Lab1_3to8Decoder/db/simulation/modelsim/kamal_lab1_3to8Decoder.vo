@@ -1,0 +1,387 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+
+// DATE "02/25/2019 06:58:20"
+
+// 
+// Device: Altera EP4CE115F29C7 Package FBGA780
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module kamal_lab1_3to8Decoder (
+	kamal_outputz0,
+	kamal_input1,
+	kamal_input2,
+	kamal_input3,
+	kamal_outputz1,
+	kamal_outputz2,
+	kamal_outputz3,
+	kamal_outputz4,
+	kamal_outputz5,
+	kamal_outputz6,
+	kamal_outputz7);
+output 	kamal_outputz0;
+input 	kamal_input1;
+input 	kamal_input2;
+input 	kamal_input3;
+output 	kamal_outputz1;
+output 	kamal_outputz2;
+output 	kamal_outputz3;
+output 	kamal_outputz4;
+output 	kamal_outputz5;
+output 	kamal_outputz6;
+output 	kamal_outputz7;
+
+// Design Ports Information
+// kamal_outputz0	=>  Location: PIN_G19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// kamal_outputz1	=>  Location: PIN_F19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// kamal_outputz2	=>  Location: PIN_E19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// kamal_outputz3	=>  Location: PIN_F21,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// kamal_outputz4	=>  Location: PIN_F18,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// kamal_outputz5	=>  Location: PIN_E18,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// kamal_outputz6	=>  Location: PIN_J19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// kamal_outputz7	=>  Location: PIN_H19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// kamal_input3	=>  Location: PIN_AC27,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// kamal_input1	=>  Location: PIN_AB28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// kamal_input2	=>  Location: PIN_AC28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \kamal_outputz0~output_o ;
+wire \kamal_outputz1~output_o ;
+wire \kamal_outputz2~output_o ;
+wire \kamal_outputz3~output_o ;
+wire \kamal_outputz4~output_o ;
+wire \kamal_outputz5~output_o ;
+wire \kamal_outputz6~output_o ;
+wire \kamal_outputz7~output_o ;
+wire \kamal_input1~input_o ;
+wire \kamal_input3~input_o ;
+wire \kamal_input2~input_o ;
+wire \kamal_inst4~0_combout ;
+wire \kamal_inst4~1_combout ;
+wire \kamal_inst4~2_combout ;
+wire \kamal_inst4~3_combout ;
+wire \kamal_inst4~4_combout ;
+wire \kamal_inst4~5_combout ;
+wire \kamal_inst4~6_combout ;
+wire \kamal_inst4~7_combout ;
+
+
+// Location: IOOBUF_X69_Y73_N16
+cycloneive_io_obuf \kamal_outputz0~output (
+	.i(\kamal_inst4~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\kamal_outputz0~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \kamal_outputz0~output .bus_hold = "false";
+defparam \kamal_outputz0~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X94_Y73_N2
+cycloneive_io_obuf \kamal_outputz1~output (
+	.i(\kamal_inst4~1_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\kamal_outputz1~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \kamal_outputz1~output .bus_hold = "false";
+defparam \kamal_outputz1~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X94_Y73_N9
+cycloneive_io_obuf \kamal_outputz2~output (
+	.i(\kamal_inst4~2_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\kamal_outputz2~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \kamal_outputz2~output .bus_hold = "false";
+defparam \kamal_outputz2~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X107_Y73_N16
+cycloneive_io_obuf \kamal_outputz3~output (
+	.i(\kamal_inst4~3_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\kamal_outputz3~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \kamal_outputz3~output .bus_hold = "false";
+defparam \kamal_outputz3~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X87_Y73_N16
+cycloneive_io_obuf \kamal_outputz4~output (
+	.i(\kamal_inst4~4_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\kamal_outputz4~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \kamal_outputz4~output .bus_hold = "false";
+defparam \kamal_outputz4~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X87_Y73_N9
+cycloneive_io_obuf \kamal_outputz5~output (
+	.i(\kamal_inst4~5_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\kamal_outputz5~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \kamal_outputz5~output .bus_hold = "false";
+defparam \kamal_outputz5~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X72_Y73_N9
+cycloneive_io_obuf \kamal_outputz6~output (
+	.i(\kamal_inst4~6_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\kamal_outputz6~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \kamal_outputz6~output .bus_hold = "false";
+defparam \kamal_outputz6~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X72_Y73_N2
+cycloneive_io_obuf \kamal_outputz7~output (
+	.i(\kamal_inst4~7_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\kamal_outputz7~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \kamal_outputz7~output .bus_hold = "false";
+defparam \kamal_outputz7~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X115_Y17_N1
+cycloneive_io_ibuf \kamal_input1~input (
+	.i(kamal_input1),
+	.ibar(gnd),
+	.o(\kamal_input1~input_o ));
+// synopsys translate_off
+defparam \kamal_input1~input .bus_hold = "false";
+defparam \kamal_input1~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X115_Y15_N8
+cycloneive_io_ibuf \kamal_input3~input (
+	.i(kamal_input3),
+	.ibar(gnd),
+	.o(\kamal_input3~input_o ));
+// synopsys translate_off
+defparam \kamal_input3~input .bus_hold = "false";
+defparam \kamal_input3~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X115_Y14_N1
+cycloneive_io_ibuf \kamal_input2~input (
+	.i(kamal_input2),
+	.ibar(gnd),
+	.o(\kamal_input2~input_o ));
+// synopsys translate_off
+defparam \kamal_input2~input .bus_hold = "false";
+defparam \kamal_input2~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X95_Y69_N16
+cycloneive_lcell_comb \kamal_inst4~0 (
+// Equation(s):
+// \kamal_inst4~0_combout  = (!\kamal_input1~input_o  & (!\kamal_input3~input_o  & !\kamal_input2~input_o ))
+
+	.dataa(\kamal_input1~input_o ),
+	.datab(\kamal_input3~input_o ),
+	.datac(\kamal_input2~input_o ),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\kamal_inst4~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \kamal_inst4~0 .lut_mask = 16'h0101;
+defparam \kamal_inst4~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X95_Y69_N2
+cycloneive_lcell_comb \kamal_inst4~1 (
+// Equation(s):
+// \kamal_inst4~1_combout  = (!\kamal_input1~input_o  & (\kamal_input3~input_o  & !\kamal_input2~input_o ))
+
+	.dataa(\kamal_input1~input_o ),
+	.datab(\kamal_input3~input_o ),
+	.datac(\kamal_input2~input_o ),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\kamal_inst4~1_combout ),
+	.cout());
+// synopsys translate_off
+defparam \kamal_inst4~1 .lut_mask = 16'h0404;
+defparam \kamal_inst4~1 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X95_Y69_N4
+cycloneive_lcell_comb \kamal_inst4~2 (
+// Equation(s):
+// \kamal_inst4~2_combout  = (!\kamal_input1~input_o  & (!\kamal_input3~input_o  & \kamal_input2~input_o ))
+
+	.dataa(\kamal_input1~input_o ),
+	.datab(\kamal_input3~input_o ),
+	.datac(\kamal_input2~input_o ),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\kamal_inst4~2_combout ),
+	.cout());
+// synopsys translate_off
+defparam \kamal_inst4~2 .lut_mask = 16'h1010;
+defparam \kamal_inst4~2 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X95_Y69_N14
+cycloneive_lcell_comb \kamal_inst4~3 (
+// Equation(s):
+// \kamal_inst4~3_combout  = (!\kamal_input1~input_o  & (\kamal_input3~input_o  & \kamal_input2~input_o ))
+
+	.dataa(\kamal_input1~input_o ),
+	.datab(\kamal_input3~input_o ),
+	.datac(\kamal_input2~input_o ),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\kamal_inst4~3_combout ),
+	.cout());
+// synopsys translate_off
+defparam \kamal_inst4~3 .lut_mask = 16'h4040;
+defparam \kamal_inst4~3 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X95_Y69_N0
+cycloneive_lcell_comb \kamal_inst4~4 (
+// Equation(s):
+// \kamal_inst4~4_combout  = (\kamal_input1~input_o  & (!\kamal_input3~input_o  & !\kamal_input2~input_o ))
+
+	.dataa(\kamal_input1~input_o ),
+	.datab(\kamal_input3~input_o ),
+	.datac(\kamal_input2~input_o ),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\kamal_inst4~4_combout ),
+	.cout());
+// synopsys translate_off
+defparam \kamal_inst4~4 .lut_mask = 16'h0202;
+defparam \kamal_inst4~4 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X95_Y69_N26
+cycloneive_lcell_comb \kamal_inst4~5 (
+// Equation(s):
+// \kamal_inst4~5_combout  = (\kamal_input1~input_o  & (\kamal_input3~input_o  & !\kamal_input2~input_o ))
+
+	.dataa(\kamal_input1~input_o ),
+	.datab(\kamal_input3~input_o ),
+	.datac(\kamal_input2~input_o ),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\kamal_inst4~5_combout ),
+	.cout());
+// synopsys translate_off
+defparam \kamal_inst4~5 .lut_mask = 16'h0808;
+defparam \kamal_inst4~5 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X95_Y69_N28
+cycloneive_lcell_comb \kamal_inst4~6 (
+// Equation(s):
+// \kamal_inst4~6_combout  = (\kamal_input1~input_o  & (!\kamal_input3~input_o  & \kamal_input2~input_o ))
+
+	.dataa(\kamal_input1~input_o ),
+	.datab(\kamal_input3~input_o ),
+	.datac(\kamal_input2~input_o ),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\kamal_inst4~6_combout ),
+	.cout());
+// synopsys translate_off
+defparam \kamal_inst4~6 .lut_mask = 16'h2020;
+defparam \kamal_inst4~6 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X95_Y69_N6
+cycloneive_lcell_comb \kamal_inst4~7 (
+// Equation(s):
+// \kamal_inst4~7_combout  = (\kamal_input1~input_o  & (\kamal_input3~input_o  & \kamal_input2~input_o ))
+
+	.dataa(\kamal_input1~input_o ),
+	.datab(\kamal_input3~input_o ),
+	.datac(\kamal_input2~input_o ),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\kamal_inst4~7_combout ),
+	.cout());
+// synopsys translate_off
+defparam \kamal_inst4~7 .lut_mask = 16'h8080;
+defparam \kamal_inst4~7 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+assign kamal_outputz0 = \kamal_outputz0~output_o ;
+
+assign kamal_outputz1 = \kamal_outputz1~output_o ;
+
+assign kamal_outputz2 = \kamal_outputz2~output_o ;
+
+assign kamal_outputz3 = \kamal_outputz3~output_o ;
+
+assign kamal_outputz4 = \kamal_outputz4~output_o ;
+
+assign kamal_outputz5 = \kamal_outputz5~output_o ;
+
+assign kamal_outputz6 = \kamal_outputz6~output_o ;
+
+assign kamal_outputz7 = \kamal_outputz7~output_o ;
+
+endmodule
