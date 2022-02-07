@@ -1,0 +1,19 @@
+|kamal_lab1_8to3Encoder
+kamal_outputY1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+kamal_input4 => inst.IN0
+kamal_input6 => inst.IN1
+kamal_input6 => inst1.IN1
+kamal_input7 => inst.IN2
+kamal_input7 => inst1.IN2
+kamal_input7 => inst2.IN2
+kamal_input5 => inst.IN3
+kamal_input5 => inst2.IN1
+kamal_outputY2 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+kamal_input2 => inst1.IN0
+kamal_input3 => inst1.IN3
+kamal_input3 => inst2.IN3
+kamal_outputY3 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+kamal_input1 => inst2.IN0
+kamal_input0 => ~NO_FANOUT~
+
+
