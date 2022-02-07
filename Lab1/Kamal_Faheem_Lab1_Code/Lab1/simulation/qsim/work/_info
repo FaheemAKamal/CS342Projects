@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\Files\Lab1\simulation\qsim
+vkamal_simpleCircuit
+Z1 !s100 EhkkKbP2c`9PgV=eZ2I]V2
+Z2 IQzV]<9eEDamVU6V1J0nYO2
+Z3 V8=6W]@98[TNlVXQg@CmHL0
+Z4 dC:\altera\13.0sp1\Files\Lab1\simulation\qsim
+Z5 w1550093331
+Z6 8lab1part1.vo
+Z7 Flab1part1.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|lab1part1.vo|
+Z10 o-work work -O0
+Z11 nkamal_simple@circuit
+!i10b 1
+!s85 0
+Z12 !s108 1550093331.758000
+Z13 !s107 lab1part1.vo|
+!s101 -O0
+vkamal_simpleCircuit_vlg_check_tst
+!i10b 1
+!s100 40lfd<9jZMhR7`iQE`dM>3
+Ij_V__:PhY9mMQMD3nH:c92
+VkTJa9FPVgB=T3G>9JKIX10
+R4
+Z14 w1550093330
+Z15 8lab1part1.vt
+Z16 Flab1part1.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z17 !s108 1550093331.834000
+Z18 !s107 lab1part1.vt|
+Z19 !s90 -work|work|lab1part1.vt|
+!s101 -O0
+R10
+Z20 nkamal_simple@circuit_vlg_check_tst
+vkamal_simpleCircuit_vlg_sample_tst
+!i10b 1
+!s100 HGmij[o[>oVQW1_0AX7PA3
+I0D6h8=1@chShcIcHcP>Ye1
+VgeFMdj8Mn;U6UbXC9>7WI1
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+Z21 nkamal_simple@circuit_vlg_sample_tst
+vkamal_simpleCircuit_vlg_vec_tst
+!i10b 1
+!s100 gh`jO1KHM25g`ERnYegU_0
+INglhYZ^c@`PZ4Kk[gok@b0
+Z22 V27^QQ`P[A@gJQS=ADO=SF2
+R4
+R14
+R15
+R16
+L0 154
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+Z23 nkamal_simple@circuit_vlg_vec_tst

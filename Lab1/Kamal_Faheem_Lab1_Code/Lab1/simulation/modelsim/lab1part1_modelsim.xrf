@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.0sp1/Files/Lab1/kamal_simpleCircuit.bdf
+source_file = 1, C:/altera/13.0sp1/Files/Lab1/kamal_simpleCircuit.vwf
+source_file = 1, C:/altera/13.0sp1/Files/Lab1/db/lab1part1.cbx.xml
+design_name = kamal_simpleCircuit
+instance = comp, \kamal_inputb~I , kamal_inputb, kamal_simpleCircuit, 1
+instance = comp, \kamal_inputa~I , kamal_inputa, kamal_simpleCircuit, 1
+instance = comp, \kamal_outputf~I , kamal_outputf, kamal_simpleCircuit, 1
