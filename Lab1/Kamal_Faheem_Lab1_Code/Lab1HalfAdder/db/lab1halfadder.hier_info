@@ -1,0 +1,9 @@
+|kamal_lab1halfadder
+kamal_outputc <= inst.DB_MAX_OUTPUT_PORT_TYPE
+kamal_inputa => inst.IN0
+kamal_inputa => inst2.IN0
+kamal_inputb => inst.IN1
+kamal_inputb => inst2.IN1
+kamal_outputd <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
