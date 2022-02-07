@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Kamal_Faheem_Lab5">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Kamal_SingleCycleCPU|Kamal_InstructionMemory:inst4|Kamal_Counter:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_nqh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Kamal_SingleCycleCPU|Kamal_32bitMux:inst12|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_69e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Kamal_SingleCycleCPU|Kamal_InstructionFetch:faheem|Kamal_32bitMux:inst6|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_69e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Kamal_SingleCycleCPU|Kamal_InstructionMemory:inst4|Kamal_Load32bit:inst1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ujn1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Kamal_SingleCycleCPU|Kamal_32bitMux:inst8|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_69e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Kamal_SingleCycleCPU|Kamal_5bitMux:inst|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_m7e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Kamal_SingleCycleCPU|Kamal_CompleteALU:inst10|Kamal_32bitMux:inst3|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_69e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Kamal_SingleCycleCPU|Kamal_InstructionFetch:faheem|Kamal_32BitAdder:inst1|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_bqh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Kamal_SingleCycleCPU|Kamal_InstructionFetch:faheem|Kamal_32BitAdderwith1input:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_vth.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Kamal_SingleCycleCPU|Kamal_RegisterFile:inst5|Kamal_SRAM:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0uf2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Kamal_SingleCycleCPU|Kamal_CompleteALU:inst10|Kamal_ALU:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_aog.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Kamal_SingleCycleCPU|Kamal_Memory:inst11|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_oin1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Kamal_SingleCycleCPU|Kamal_RegisterFile:inst5|Kamal_SRAM:inst1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0uf2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Kamal_SingleCycleCPU|Kamal_SevenSegmentMux:inst14|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_o7e.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
