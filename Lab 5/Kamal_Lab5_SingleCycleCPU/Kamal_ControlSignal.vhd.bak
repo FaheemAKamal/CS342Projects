@@ -1,0 +1,50 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+-- Mips Control Signals -- 
+ENTITY Control IS
+	PORT
+	(
+		opcode	: IN STD_LOGIC_VECTOR (5 DOWNTO 0);
+		func		: IN STD_LOGIC_VECTOR (5 DOWNTO 0);
+		RegDst	: OUT STD_LOGIC; -- Determines how the Destination Register is specified --
+		ALUSrc	: OUT STD_LOGIC; -- Source Operand Fetch: selects the second source operand for the ALU --
+		MemtoReg	: OUT STD_LOGIC; 
+		RegWr		: OUT STD_LOGIC;
+		MemWr		: OUT STD_LOGIC;
+		PCSrc		: OUT STD_LOGIC;
+		ExtOp		: OUT STD_LOGIC;
+		ALUctr	: OUT STD_LOGIC_VECTOR (1 DOWNTO 0)
+	);
+END Control;
+
+ARCHITECTURE arch OF Control IS
+
+BEGIN
+
+RegDst 	<= '1' when (opcode = "000000") else
+				'0';
+			 
+ALUSrc 	<= '0' when ((opcode = "000000") or (opcode = "000100")) else
+				'1';
+			 
+MemToReg <= '1' when (opcode = "100011") else
+				'0';
+				
+RegWr 	<=	'0' when ((opcode = "101011") or (opcode = "000100")) else
+				'1';
+				
+MemWr		<=	'1' when (opcode = "101011") else
+				'0';
+				
+PCSrc		<=	'1' when (opcode = "000100") else
+				'0';
+				
+ExtOp		<= '0' when (opcode = "001101") else
+				'1';
+				
+ALUctr	<=	"10" when (opcode = "001101") else
+				"00" when ((opcode = "000100") or ((opcode = "000000") and (func = "100010")))
+				else "01";
+
+END arch;

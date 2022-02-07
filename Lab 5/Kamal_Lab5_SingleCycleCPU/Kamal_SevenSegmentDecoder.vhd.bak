@@ -1,0 +1,45 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity Kamal_SevenSegmentDecoder is
+Port (
+			Kamal_result : in STD_LOGIC_VECTOR (3 downto 0);
+			Kamal_display : out STD_LOGIC_VECTOR (6 downto 0)
+);
+end Kamal_SevenSegmentDecoder;
+
+architecture behave of Kamal_SevenSegmentDecoder is
+
+begin
+
+process(result)
+
+
+case Kamal_resultis
+	when "0000" =>
+		Kamal_display <= "0000001";
+	when "0001" =>
+		Kamal_display <= "1001111";
+	when "0010" =>
+		Kamal_display <= "0010010";
+	when "0011" =>
+		Kamal_display <= "0000110";
+	when "0100" =>
+		Kamal_display <= "1001100";
+	when "0101" =>
+		Kamal_display <= "0100100";
+	when "0110" =>
+		Kamal_display <= "0100000";
+	when "0111" =>
+		Kamal_display <= "0001111";
+	when "1000" =>
+		Kamal_display <= "0000000";
+	when "1001" =>
+		Kamal_display <= "0000100";
+	when others =>
+		Kamal_display <= "1111111";
+end case;
+
+end process;
+
+end behave;
