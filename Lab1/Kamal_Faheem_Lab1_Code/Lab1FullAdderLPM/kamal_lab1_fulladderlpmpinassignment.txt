@@ -1,0 +1,6 @@
+To, Location
+cin,PIN_AB28
+dataa,PIN_AC28
+datab,PIN_AC27
+cout,PIN_G19
+result,PIN_F19
