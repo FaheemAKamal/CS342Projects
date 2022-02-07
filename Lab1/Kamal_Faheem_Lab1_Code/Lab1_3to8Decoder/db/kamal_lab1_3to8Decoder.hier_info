@@ -1,0 +1,26 @@
+|kamal_lab1_3to8Decoder
+kamal_outputz0 <= kamal_inst4.DB_MAX_OUTPUT_PORT_TYPE
+kamal_input1 => kamal_inst1.IN0
+kamal_input1 => kamal_inst8.IN0
+kamal_input1 => kamal_inst9.IN0
+kamal_input1 => kamal_inst10.IN0
+kamal_input1 => kamal_inst11.IN0
+kamal_input2 => kamal_inst2.IN0
+kamal_input2 => kamal_inst6.IN1
+kamal_input2 => kamal_inst7.IN1
+kamal_input2 => kamal_inst10.IN1
+kamal_input2 => kamal_inst11.IN1
+kamal_input3 => kamal_inst3.IN0
+kamal_input3 => kamal_inst5.IN2
+kamal_input3 => kamal_inst7.IN2
+kamal_input3 => kamal_inst9.IN2
+kamal_input3 => kamal_inst11.IN2
+kamal_outputz1 <= kamal_inst5.DB_MAX_OUTPUT_PORT_TYPE
+kamal_outputz2 <= kamal_inst6.DB_MAX_OUTPUT_PORT_TYPE
+kamal_outputz3 <= kamal_inst7.DB_MAX_OUTPUT_PORT_TYPE
+kamal_outputz4 <= kamal_inst8.DB_MAX_OUTPUT_PORT_TYPE
+kamal_outputz5 <= kamal_inst9.DB_MAX_OUTPUT_PORT_TYPE
+kamal_outputz6 <= kamal_inst10.DB_MAX_OUTPUT_PORT_TYPE
+kamal_outputz7 <= kamal_inst11.DB_MAX_OUTPUT_PORT_TYPE
+
+
