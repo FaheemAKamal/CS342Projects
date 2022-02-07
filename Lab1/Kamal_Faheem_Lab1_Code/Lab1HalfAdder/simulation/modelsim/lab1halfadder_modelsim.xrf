@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.0sp1/Files/Lab1HalfAdder/kamal_lab1halfadder.bdf
+source_file = 1, C:/altera/13.0sp1/Files/Lab1HalfAdder/kamal_lab1halfaddercode.vhd
+source_file = 1, C:/altera/13.0sp1/Files/Lab1HalfAdder/kamal_lab1halfadder_tb.vhd
+source_file = 1, C:/altera/13.0sp1/Files/Lab1HalfAdder/kamal_lab1halfadderWaveform.vwf
+source_file = 1, C:/altera/13.0sp1/Files/Lab1HalfAdder/kamal_lab1halfadderpinassignments.txt
+source_file = 1, C:/altera/13.0sp1/Files/Lab1HalfAdder/db/lab1halfadder.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = kamal_lab1halfadder
+instance = comp, \kamal_outputc~output , kamal_outputc~output, kamal_lab1halfadder, 1
+instance = comp, \kamal_outputd~output , kamal_outputd~output, kamal_lab1halfadder, 1
+instance = comp, \kamal_inputa~input , kamal_inputa~input, kamal_lab1halfadder, 1
+instance = comp, \kamal_inputb~input , kamal_inputb~input, kamal_lab1halfadder, 1

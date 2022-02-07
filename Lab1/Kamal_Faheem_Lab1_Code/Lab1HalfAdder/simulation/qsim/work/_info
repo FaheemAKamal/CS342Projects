@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\Files\Lab1HalfAdder\simulation\qsim
+vkamal_lab1halfadder
+Z1 IG@VI>^<dDHngebKF:o=]o1
+Z2 VZH1oM=d[d^UUD8l>0nYX<3
+Z3 dC:\altera\13.0sp1\Files\Lab1HalfAdder\simulation\qsim
+Z4 w1550555613
+Z5 8lab1halfadder.vo
+Z6 Flab1halfadder.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 agG4_NUkkI6=_glaN6>He2
+!s85 0
+Z10 !s108 1550555613.731000
+Z11 !s107 lab1halfadder.vo|
+Z12 !s90 -work|work|lab1halfadder.vo|
+!s101 -O0
+vkamal_lab1halfadder_vlg_check_tst
+!i10b 1
+!s100 7WeZ>GPm;7WhoR0EFTcK50
+IkXO<;[Q=H?c=AG0o:FM=k1
+V35B[OHW3iIMlNZIolQb_h0
+R3
+Z13 w1550555612
+Z14 8lab1halfadder.vt
+Z15 Flab1halfadder.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z16 !s108 1550555613.811000
+Z17 !s107 lab1halfadder.vt|
+Z18 !s90 -work|work|lab1halfadder.vt|
+!s101 -O0
+R8
+vkamal_lab1halfadder_vlg_sample_tst
+!i10b 1
+!s100 I:^l_R6YCldMJkS3V5A]a0
+I_iJGj]B]]<`oUiA3?VJ@62
+V4WSMhF@5ghHP904hHjNh@3
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vkamal_lab1halfadder_vlg_vec_tst
+!i10b 1
+!s100 <;b5c^6DfI<R2NDC;2^GX0
+Iz<[L<E>2o7XfEI4?JQQP;2
+VNSinXT8PiSeAl?3b]G2JB2
+R3
+R13
+R14
+R15
+L0 181
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

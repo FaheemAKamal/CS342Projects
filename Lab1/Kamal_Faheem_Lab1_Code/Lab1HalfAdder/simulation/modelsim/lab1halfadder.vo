@@ -1,0 +1,151 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+
+// DATE "02/25/2019 06:47:21"
+
+// 
+// Device: Altera EP4CE115F29C7 Package FBGA780
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module kamal_lab1halfadder (
+	kamal_outputc,
+	kamal_inputa,
+	kamal_inputb,
+	kamal_outputd);
+output 	kamal_outputc;
+input 	kamal_inputa;
+input 	kamal_inputb;
+output 	kamal_outputd;
+
+// Design Ports Information
+// kamal_outputc	=>  Location: PIN_G19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// kamal_outputd	=>  Location: PIN_F19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// kamal_inputa	=>  Location: PIN_AB28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// kamal_inputb	=>  Location: PIN_AC28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \kamal_outputc~output_o ;
+wire \kamal_outputd~output_o ;
+wire \kamal_inputa~input_o ;
+wire \kamal_inputb~input_o ;
+wire \inst~combout ;
+wire \inst2~combout ;
+
+
+// Location: IOOBUF_X69_Y73_N16
+cycloneive_io_obuf \kamal_outputc~output (
+	.i(\inst~combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\kamal_outputc~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \kamal_outputc~output .bus_hold = "false";
+defparam \kamal_outputc~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X94_Y73_N2
+cycloneive_io_obuf \kamal_outputd~output (
+	.i(\inst2~combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\kamal_outputd~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \kamal_outputd~output .bus_hold = "false";
+defparam \kamal_outputd~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X115_Y17_N1
+cycloneive_io_ibuf \kamal_inputa~input (
+	.i(kamal_inputa),
+	.ibar(gnd),
+	.o(\kamal_inputa~input_o ));
+// synopsys translate_off
+defparam \kamal_inputa~input .bus_hold = "false";
+defparam \kamal_inputa~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X115_Y14_N1
+cycloneive_io_ibuf \kamal_inputb~input (
+	.i(kamal_inputb),
+	.ibar(gnd),
+	.o(\kamal_inputb~input_o ));
+// synopsys translate_off
+defparam \kamal_inputb~input .bus_hold = "false";
+defparam \kamal_inputb~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X107_Y49_N8
+cycloneive_lcell_comb inst(
+// Equation(s):
+// \inst~combout  = \kamal_inputa~input_o  $ (\kamal_inputb~input_o )
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(\kamal_inputa~input_o ),
+	.datad(\kamal_inputb~input_o ),
+	.cin(gnd),
+	.combout(\inst~combout ),
+	.cout());
+// synopsys translate_off
+defparam inst.lut_mask = 16'h0FF0;
+defparam inst.sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X107_Y49_N10
+cycloneive_lcell_comb inst2(
+// Equation(s):
+// \inst2~combout  = (\kamal_inputa~input_o  & \kamal_inputb~input_o )
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(\kamal_inputa~input_o ),
+	.datad(\kamal_inputb~input_o ),
+	.cin(gnd),
+	.combout(\inst2~combout ),
+	.cout());
+// synopsys translate_off
+defparam inst2.lut_mask = 16'hF000;
+defparam inst2.sum_lutc_input = "datac";
+// synopsys translate_on
+
+assign kamal_outputc = \kamal_outputc~output_o ;
+
+assign kamal_outputd = \kamal_outputd~output_o ;
+
+endmodule

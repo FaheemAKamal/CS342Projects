@@ -1,0 +1,5 @@
+To, Location
+kamal_inputa,PIN_AB28
+kamal_inputb,PIN_AC28
+kamal_outputc,PIN_G19
+kamal_outputd,PIN_F19
