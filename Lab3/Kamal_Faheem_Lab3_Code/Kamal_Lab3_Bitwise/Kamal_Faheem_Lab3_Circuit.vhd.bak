@@ -1,0 +1,14 @@
+library ieee; 
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Kamal_circuit is
+	Port( 
+	Kamal_input1: in std_logic_vector(5 downto 0);
+	Kamal_input2: in std_logic_vector(5 downto 0);
+	op: in std_logic_vector(2 downto 0);
+	)
+end Kamal_circuit;
+
+architecture Kamal_arch of Kamal_circuit is
+s
