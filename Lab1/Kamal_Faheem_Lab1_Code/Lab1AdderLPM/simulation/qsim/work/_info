@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\Files\Lab1AdderLPM\simulation\qsim
+vkamal_lab1_AdderLPM
+Z1 IeIdKA8A5``HZfDP:GD[Q]3
+Z2 VRJDBZ]1lzck83bLMYF@<?0
+Z3 dC:\altera\13.0sp1\Files\Lab1AdderLPM\simulation\qsim
+Z4 w1550681218
+Z5 8kamal_Lab1_AdderLPM.vo
+Z6 Fkamal_Lab1_AdderLPM.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 nkamal_lab1_@adder@l@p@m
+!i10b 1
+Z10 !s100 Qa]dblgWXNWcU5baDnZzO2
+!s85 0
+Z11 !s108 1550681219.451000
+Z12 !s107 kamal_Lab1_AdderLPM.vo|
+Z13 !s90 -work|work|kamal_Lab1_AdderLPM.vo|
+!s101 -O0
+vkamal_lab1_AdderLPM_vlg_check_tst
+!i10b 1
+!s100 ?cjOL9adU?H5iQ4ZIR[hd0
+I?Mhh;XSl0?XfEk@?m_BTT3
+VmGS33DMh=h]z^GOzlDMK32
+R3
+R4
+Z14 8kamal_Lab1_AdderLPM.vt
+Z15 Fkamal_Lab1_AdderLPM.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z16 !s108 1550681219.530000
+Z17 !s107 kamal_Lab1_AdderLPM.vt|
+Z18 !s90 -work|work|kamal_Lab1_AdderLPM.vt|
+!s101 -O0
+R8
+nkamal_lab1_@adder@l@p@m_vlg_check_tst
+vkamal_lab1_AdderLPM_vlg_sample_tst
+!i10b 1
+!s100 ?_9hhII74AbcXn6dJ00H;0
+I=AKAE=C49MH2:X6dH29;03
+V9:h0QPPHL`:CcHJRXMc860
+R3
+R4
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+nkamal_lab1_@adder@l@p@m_vlg_sample_tst
+vkamal_lab1_AdderLPM_vlg_vec_tst
+!i10b 1
+!s100 h0HCdOg@4<ojfY=VbW0;V1
+IEM27=B3igd_PiPLNo[KRn2
+V85AfDcNgMA3ZYF]2PShck1
+R3
+R4
+R14
+R15
+L0 187
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+nkamal_lab1_@adder@l@p@m_vlg_vec_tst

@@ -1,0 +1,68 @@
+$comment
+	File created using the following command:
+		vcd file kamal_Lab1_AdderLPM.msim.vcd -direction
+$end
+$date
+	Wed Feb 20 11:47:00 2019
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module kamal_lab1_AdderLPM_vlg_vec_tst $end
+$var reg 1 ! dataa [0:0] $end
+$var reg 1 " datab [0:0] $end
+$var wire 1 # cout $end
+$var wire 1 $ result [0] $end
+$var wire 1 % sampler $end
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , LPM_ADD_SUB_component|auto_generated|carry_eqn[0]~0_combout $end
+$var wire 1 - LPM_ADD_SUB_component|auto_generated|sum_eqn[0]~0_combout $end
+$var wire 1 . datab~combout [0] $end
+$var wire 1 / dataa~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+0#
+0$
+x%
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+0-
+0.
+0/
+$end
+#20000
+b1 !
+b1 "
+1/
+1.
+0%
+1,
+1#
+#80000
+b0 !
+b0 "
+0/
+0.
+1%
+0,
+0#
+#1000000
