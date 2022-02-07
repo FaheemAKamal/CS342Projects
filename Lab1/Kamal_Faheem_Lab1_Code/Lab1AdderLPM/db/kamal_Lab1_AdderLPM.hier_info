@@ -1,0 +1,31 @@
+|kamal_lab1_AdderLPM
+dataa[0] => lpm_add_sub:LPM_ADD_SUB_component.dataa[0]
+datab[0] => lpm_add_sub:LPM_ADD_SUB_component.datab[0]
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result[0]
+
+
+|kamal_lab1_AdderLPM|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_trh:auto_generated.dataa[0]
+datab[0] => add_sub_trh:auto_generated.datab[0]
+cin => ~NO_FANOUT~
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_trh:auto_generated.result[0]
+cout <= add_sub_trh:auto_generated.cout
+overflow <= <GND>
+
+
+|kamal_lab1_AdderLPM|lpm_add_sub:LPM_ADD_SUB_component|add_sub_trh:auto_generated
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
