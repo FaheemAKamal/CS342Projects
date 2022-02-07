@@ -1,0 +1,1304 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 208 344 392 360)
+	(text "INPUT" (rect 141 0 169 10)(font "Arial" (font_size 6)))
+	(text "Kamal_dec[15..0]" (rect 5 0 92 12)(font "Arial" ))
+	(pt 184 8)
+	(drawing
+		(line (pt 100 12)(pt 125 12))
+		(line (pt 100 4)(pt 125 4))
+		(line (pt 129 8)(pt 184 8))
+		(line (pt 100 12)(pt 100 4))
+		(line (pt 125 4)(pt 129 8))
+		(line (pt 125 12)(pt 129 8))
+	)
+	(text "VCC" (rect 144 7 164 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 256 376 424 392)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "Kamal_IN" (rect 5 0 54 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 280 408 448 424)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "Kamal_WR" (rect 5 0 61 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 1192 -2064 1368 -2048)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "Kamal_OUT" (rect 90 0 149 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 576 264 864 360)
+	(text "Kamal_Faheem_SRAM" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Kamal_Input_IN" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Input_IN" (rect 21 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Kamal_Selected_Chip" (rect 0 0 122 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Selected_Chip" (rect 21 43 143 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Kamal_Write_Enable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Write_Enable" (rect 21 59 136 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "Kamal_Output_OUT" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Output_OUT" (rect 157 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 80))
+	)
+)
+(symbol
+	(rect 576 128 864 224)
+	(text "Kamal_Faheem_SRAM" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "inst1" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Kamal_Input_IN" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Input_IN" (rect 21 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Kamal_Selected_Chip" (rect 0 0 122 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Selected_Chip" (rect 21 43 143 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Kamal_Write_Enable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Write_Enable" (rect 21 59 136 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "Kamal_Output_OUT" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Output_OUT" (rect 157 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 80))
+	)
+)
+(symbol
+	(rect 576 -24 864 72)
+	(text "Kamal_Faheem_SRAM" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "inst2" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Kamal_Input_IN" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Input_IN" (rect 21 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Kamal_Selected_Chip" (rect 0 0 122 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Selected_Chip" (rect 21 43 143 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Kamal_Write_Enable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Write_Enable" (rect 21 59 136 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "Kamal_Output_OUT" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Output_OUT" (rect 157 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 80))
+	)
+)
+(symbol
+	(rect 576 -168 864 -72)
+	(text "Kamal_Faheem_SRAM" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "inst3" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Kamal_Input_IN" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Input_IN" (rect 21 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Kamal_Selected_Chip" (rect 0 0 122 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Selected_Chip" (rect 21 43 143 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Kamal_Write_Enable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Write_Enable" (rect 21 59 136 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "Kamal_Output_OUT" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Output_OUT" (rect 157 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 80))
+	)
+)
+(symbol
+	(rect 576 -312 864 -216)
+	(text "Kamal_Faheem_SRAM" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "inst4" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Kamal_Input_IN" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Input_IN" (rect 21 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Kamal_Selected_Chip" (rect 0 0 122 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Selected_Chip" (rect 21 43 143 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Kamal_Write_Enable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Write_Enable" (rect 21 59 136 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "Kamal_Output_OUT" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Output_OUT" (rect 157 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 80))
+	)
+)
+(symbol
+	(rect 576 -464 864 -368)
+	(text "Kamal_Faheem_SRAM" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "inst5" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Kamal_Input_IN" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Input_IN" (rect 21 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Kamal_Selected_Chip" (rect 0 0 122 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Selected_Chip" (rect 21 43 143 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Kamal_Write_Enable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Write_Enable" (rect 21 59 136 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "Kamal_Output_OUT" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Output_OUT" (rect 157 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 80))
+	)
+)
+(symbol
+	(rect 584 -632 872 -536)
+	(text "Kamal_Faheem_SRAM" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "inst6" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Kamal_Input_IN" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Input_IN" (rect 21 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Kamal_Selected_Chip" (rect 0 0 122 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Selected_Chip" (rect 21 43 143 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Kamal_Write_Enable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Write_Enable" (rect 21 59 136 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "Kamal_Output_OUT" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Output_OUT" (rect 157 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 80))
+	)
+)
+(symbol
+	(rect 584 -792 872 -696)
+	(text "Kamal_Faheem_SRAM" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "inst7" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Kamal_Input_IN" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Input_IN" (rect 21 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Kamal_Selected_Chip" (rect 0 0 122 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Selected_Chip" (rect 21 43 143 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Kamal_Write_Enable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Write_Enable" (rect 21 59 136 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "Kamal_Output_OUT" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Output_OUT" (rect 157 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 80))
+	)
+)
+(symbol
+	(rect 584 -944 872 -848)
+	(text "Kamal_Faheem_SRAM" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "inst8" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Kamal_Input_IN" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Input_IN" (rect 21 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Kamal_Selected_Chip" (rect 0 0 122 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Selected_Chip" (rect 21 43 143 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Kamal_Write_Enable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Write_Enable" (rect 21 59 136 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "Kamal_Output_OUT" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Output_OUT" (rect 157 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 80))
+	)
+)
+(symbol
+	(rect 584 -1104 872 -1008)
+	(text "Kamal_Faheem_SRAM" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "inst9" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Kamal_Input_IN" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Input_IN" (rect 21 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Kamal_Selected_Chip" (rect 0 0 122 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Selected_Chip" (rect 21 43 143 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Kamal_Write_Enable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Write_Enable" (rect 21 59 136 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "Kamal_Output_OUT" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Output_OUT" (rect 157 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 80))
+	)
+)
+(symbol
+	(rect 584 -1272 872 -1176)
+	(text "Kamal_Faheem_SRAM" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "inst10" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Kamal_Input_IN" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Input_IN" (rect 21 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Kamal_Selected_Chip" (rect 0 0 122 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Selected_Chip" (rect 21 43 143 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Kamal_Write_Enable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Write_Enable" (rect 21 59 136 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "Kamal_Output_OUT" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Output_OUT" (rect 157 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 80))
+	)
+)
+(symbol
+	(rect 584 -1440 872 -1344)
+	(text "Kamal_Faheem_SRAM" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "inst11" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Kamal_Input_IN" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Input_IN" (rect 21 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Kamal_Selected_Chip" (rect 0 0 122 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Selected_Chip" (rect 21 43 143 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Kamal_Write_Enable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Write_Enable" (rect 21 59 136 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "Kamal_Output_OUT" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Output_OUT" (rect 157 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 80))
+	)
+)
+(symbol
+	(rect 584 -1616 872 -1520)
+	(text "Kamal_Faheem_SRAM" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "inst12" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Kamal_Input_IN" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Input_IN" (rect 21 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Kamal_Selected_Chip" (rect 0 0 122 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Selected_Chip" (rect 21 43 143 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Kamal_Write_Enable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Write_Enable" (rect 21 59 136 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "Kamal_Output_OUT" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Output_OUT" (rect 157 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 80))
+	)
+)
+(symbol
+	(rect 584 -1768 872 -1672)
+	(text "Kamal_Faheem_SRAM" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "inst13" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Kamal_Input_IN" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Input_IN" (rect 21 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Kamal_Selected_Chip" (rect 0 0 122 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Selected_Chip" (rect 21 43 143 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Kamal_Write_Enable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Write_Enable" (rect 21 59 136 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "Kamal_Output_OUT" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Output_OUT" (rect 157 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 80))
+	)
+)
+(symbol
+	(rect 576 -1936 864 -1840)
+	(text "Kamal_Faheem_SRAM" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "inst14" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Kamal_Input_IN" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Input_IN" (rect 21 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Kamal_Selected_Chip" (rect 0 0 122 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Selected_Chip" (rect 21 43 143 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Kamal_Write_Enable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Write_Enable" (rect 21 59 136 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "Kamal_Output_OUT" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Output_OUT" (rect 157 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 80))
+	)
+)
+(symbol
+	(rect 576 -2112 864 -2016)
+	(text "Kamal_Faheem_SRAM" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "inst15" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Kamal_Input_IN" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Input_IN" (rect 21 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Kamal_Selected_Chip" (rect 0 0 122 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Selected_Chip" (rect 21 43 143 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Kamal_Write_Enable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Write_Enable" (rect 21 59 136 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "Kamal_Output_OUT" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "Kamal_Output_OUT" (rect 157 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 80))
+	)
+)
+(connector
+	(pt 864 -2080)
+	(pt 968 -2080)
+)
+(connector
+	(pt 968 304)
+	(pt 880 304)
+)
+(connector
+	(pt 880 304)
+	(pt 880 296)
+)
+(connector
+	(pt 880 296)
+	(pt 864 296)
+)
+(connector
+	(pt 864 160)
+	(pt 968 160)
+)
+(connector
+	(pt 968 160)
+	(pt 968 304)
+)
+(connector
+	(pt 864 8)
+	(pt 968 8)
+)
+(connector
+	(pt 968 8)
+	(pt 968 160)
+)
+(connector
+	(pt 864 -136)
+	(pt 968 -136)
+)
+(connector
+	(pt 968 -136)
+	(pt 968 8)
+)
+(connector
+	(pt 864 -432)
+	(pt 968 -432)
+)
+(connector
+	(pt 872 -600)
+	(pt 968 -600)
+)
+(connector
+	(pt 968 -600)
+	(pt 968 -432)
+)
+(connector
+	(pt 872 -760)
+	(pt 968 -760)
+)
+(connector
+	(pt 968 -760)
+	(pt 968 -600)
+)
+(connector
+	(pt 864 -1904)
+	(pt 968 -1904)
+)
+(connector
+	(pt 872 -1736)
+	(pt 968 -1736)
+)
+(connector
+	(pt 968 -1904)
+	(pt 968 -1736)
+)
+(connector
+	(pt 872 -1584)
+	(pt 968 -1584)
+)
+(connector
+	(pt 968 -1736)
+	(pt 968 -1584)
+)
+(connector
+	(pt 872 -1408)
+	(pt 968 -1408)
+)
+(connector
+	(pt 968 -1584)
+	(pt 968 -1408)
+)
+(connector
+	(pt 872 -1240)
+	(pt 968 -1240)
+)
+(connector
+	(pt 968 -1408)
+	(pt 968 -1240)
+)
+(connector
+	(pt 872 -1072)
+	(pt 968 -1072)
+)
+(connector
+	(pt 968 -1240)
+	(pt 968 -1072)
+)
+(connector
+	(pt 872 -912)
+	(pt 968 -912)
+)
+(connector
+	(pt 968 -1072)
+	(pt 968 -912)
+)
+(connector
+	(pt 968 -912)
+	(pt 968 -760)
+)
+(connector
+	(pt 968 -2056)
+	(pt 1192 -2056)
+)
+(connector
+	(pt 968 -2080)
+	(pt 968 -2056)
+)
+(connector
+	(pt 968 -2056)
+	(pt 968 -1904)
+)
+(connector
+	(pt 480 -2080)
+	(pt 576 -2080)
+)
+(connector
+	(pt 528 -2048)
+	(pt 576 -2048)
+)
+(connector
+	(pt 480 -1904)
+	(pt 576 -1904)
+)
+(connector
+	(pt 480 -2080)
+	(pt 480 -1904)
+)
+(connector
+	(pt 528 -1872)
+	(pt 576 -1872)
+)
+(connector
+	(pt 528 -2048)
+	(pt 528 -1872)
+)
+(connector
+	(pt 528 -1704)
+	(pt 584 -1704)
+)
+(connector
+	(pt 528 -1872)
+	(pt 528 -1704)
+)
+(connector
+	(pt 480 -1736)
+	(pt 584 -1736)
+)
+(connector
+	(pt 480 -1904)
+	(pt 480 -1736)
+)
+(connector
+	(pt 584 -1552)
+	(pt 528 -1552)
+)
+(connector
+	(pt 528 -1704)
+	(pt 528 -1552)
+)
+(connector
+	(pt 480 -1584)
+	(pt 584 -1584)
+)
+(connector
+	(pt 480 -1736)
+	(pt 480 -1584)
+)
+(connector
+	(pt 480 -1408)
+	(pt 584 -1408)
+)
+(connector
+	(pt 480 -1584)
+	(pt 480 -1408)
+)
+(connector
+	(pt 584 -1376)
+	(pt 528 -1376)
+)
+(connector
+	(pt 528 -1552)
+	(pt 528 -1376)
+)
+(connector
+	(pt 424 384)
+	(pt 480 384)
+)
+(connector
+	(pt 448 416)
+	(pt 504 416)
+)
+(connector
+	(pt 504 416)
+	(pt 504 432)
+)
+(connector
+	(pt 504 432)
+	(pt 528 432)
+)
+(connector
+	(pt 528 -1208)
+	(pt 584 -1208)
+)
+(connector
+	(pt 528 -1376)
+	(pt 528 -1208)
+)
+(connector
+	(pt 584 -1240)
+	(pt 480 -1240)
+)
+(connector
+	(pt 480 -1408)
+	(pt 480 -1240)
+)
+(connector
+	(pt 584 -1072)
+	(pt 480 -1072)
+)
+(connector
+	(pt 480 -1240)
+	(pt 480 -1072)
+)
+(connector
+	(pt 528 -1040)
+	(pt 584 -1040)
+)
+(connector
+	(pt 528 -1208)
+	(pt 528 -1040)
+)
+(connector
+	(pt 584 -880)
+	(pt 528 -880)
+)
+(connector
+	(pt 528 -1040)
+	(pt 528 -880)
+)
+(connector
+	(pt 480 -912)
+	(pt 584 -912)
+)
+(connector
+	(pt 480 -1072)
+	(pt 480 -912)
+)
+(connector
+	(pt 584 -728)
+	(pt 528 -728)
+)
+(connector
+	(pt 528 -880)
+	(pt 528 -728)
+)
+(connector
+	(pt 480 -760)
+	(pt 584 -760)
+)
+(connector
+	(pt 480 -912)
+	(pt 480 -760)
+)
+(connector
+	(pt 480 -600)
+	(pt 584 -600)
+)
+(connector
+	(pt 480 -760)
+	(pt 480 -600)
+)
+(connector
+	(pt 528 -568)
+	(pt 584 -568)
+)
+(connector
+	(pt 528 -728)
+	(pt 528 -568)
+)
+(connector
+	(pt 480 -432)
+	(pt 576 -432)
+)
+(connector
+	(pt 480 -600)
+	(pt 480 -432)
+)
+(connector
+	(pt 528 -400)
+	(pt 576 -400)
+)
+(connector
+	(pt 528 -568)
+	(pt 528 -400)
+)
+(connector
+	(pt 576 -248)
+	(pt 528 -248)
+)
+(connector
+	(pt 528 -400)
+	(pt 528 -248)
+)
+(connector
+	(pt 480 -280)
+	(pt 576 -280)
+)
+(connector
+	(pt 480 -432)
+	(pt 480 -280)
+)
+(connector
+	(pt 528 -104)
+	(pt 576 -104)
+)
+(connector
+	(pt 528 -248)
+	(pt 528 -104)
+)
+(connector
+	(pt 528 40)
+	(pt 576 40)
+)
+(connector
+	(pt 528 -104)
+	(pt 528 40)
+)
+(connector
+	(pt 480 -136)
+	(pt 576 -136)
+)
+(connector
+	(pt 480 -280)
+	(pt 480 -136)
+)
+(connector
+	(pt 480 8)
+	(pt 576 8)
+)
+(connector
+	(pt 480 -136)
+	(pt 480 8)
+)
+(connector
+	(pt 576 328)
+	(pt 528 328)
+)
+(connector
+	(pt 528 328)
+	(pt 528 432)
+)
+(connector
+	(pt 480 296)
+	(pt 576 296)
+)
+(connector
+	(pt 480 296)
+	(pt 480 384)
+)
+(connector
+	(pt 576 160)
+	(pt 480 160)
+)
+(connector
+	(pt 480 8)
+	(pt 480 160)
+)
+(connector
+	(pt 480 160)
+	(pt 480 296)
+)
+(connector
+	(pt 576 192)
+	(pt 528 192)
+)
+(connector
+	(pt 528 40)
+	(pt 528 192)
+)
+(connector
+	(pt 528 192)
+	(pt 528 328)
+)
+(connector
+	(pt 440 -1720)
+	(pt 440 -1888)
+	(bus)
+)
+(connector
+	(pt 440 -1568)
+	(pt 440 -1720)
+	(bus)
+)
+(connector
+	(pt 440 -1392)
+	(pt 440 -1568)
+	(bus)
+)
+(connector
+	(pt 440 -120)
+	(pt 440 -264)
+	(bus)
+)
+(connector
+	(pt 440 -264)
+	(pt 440 -416)
+	(bus)
+)
+(connector
+	(pt 440 -416)
+	(pt 440 -584)
+	(bus)
+)
+(connector
+	(pt 440 -584)
+	(pt 440 -744)
+	(bus)
+)
+(connector
+	(pt 440 -744)
+	(pt 440 -896)
+	(bus)
+)
+(connector
+	(pt 440 -896)
+	(pt 440 -1056)
+	(bus)
+)
+(connector
+	(pt 440 -1056)
+	(pt 440 -1224)
+	(bus)
+)
+(connector
+	(pt 440 -1224)
+	(pt 440 -1392)
+	(bus)
+)
+(connector
+	(pt 392 352)
+	(pt 440 352)
+	(bus)
+)
+(connector
+	(pt 440 176)
+	(pt 440 312)
+	(bus)
+)
+(connector
+	(pt 440 312)
+	(pt 440 352)
+	(bus)
+)
+(connector
+	(text "Kamal_dec[0]" (rect 450 296 517 308)(font "Arial" ))
+	(pt 576 312)
+	(pt 440 312)
+)
+(connector
+	(text "Kamal_dec[1]" (rect 450 160 517 172)(font "Arial" ))
+	(pt 576 176)
+	(pt 440 176)
+)
+(connector
+	(pt 440 176)
+	(pt 440 24)
+	(bus)
+)
+(connector
+	(pt 440 24)
+	(pt 440 -120)
+	(bus)
+)
+(connector
+	(pt 864 -280)
+	(pt 968 -280)
+)
+(connector
+	(pt 968 -432)
+	(pt 968 -280)
+)
+(connector
+	(pt 968 -280)
+	(pt 968 -136)
+)
+(connector
+	(text "Kamal_dec[2]" (rect 450 8 517 20)(font "Arial" ))
+	(pt 440 24)
+	(pt 576 24)
+)
+(connector
+	(text "Kamal_dec[3]" (rect 450 -136 517 -124)(font "Arial" ))
+	(pt 576 -120)
+	(pt 440 -120)
+)
+(connector
+	(text "Kamal_dec[4]" (rect 450 -280 517 -268)(font "Arial" ))
+	(pt 576 -264)
+	(pt 440 -264)
+)
+(connector
+	(text "Kamal_dec[5]" (rect 450 -432 517 -420)(font "Arial" ))
+	(pt 576 -416)
+	(pt 440 -416)
+)
+(connector
+	(text "Kamal_dec[6]" (rect 450 -600 517 -588)(font "Arial" ))
+	(pt 584 -584)
+	(pt 440 -584)
+)
+(connector
+	(text "Kamal_dec[7]" (rect 450 -760 517 -748)(font "Arial" ))
+	(pt 584 -744)
+	(pt 440 -744)
+)
+(connector
+	(text "Kamal_dec[8]" (rect 450 -912 517 -900)(font "Arial" ))
+	(pt 584 -896)
+	(pt 440 -896)
+)
+(connector
+	(text "Kamal_dec[9]" (rect 450 -1072 517 -1060)(font "Arial" ))
+	(pt 584 -1056)
+	(pt 440 -1056)
+)
+(connector
+	(text "Kamal_dec[10]" (rect 450 -1240 523 -1228)(font "Arial" ))
+	(pt 584 -1224)
+	(pt 440 -1224)
+)
+(connector
+	(text "Kamal_dec[11]" (rect 450 -1408 523 -1396)(font "Arial" ))
+	(pt 584 -1392)
+	(pt 440 -1392)
+)
+(connector
+	(text "Kamal_dec[12]" (rect 450 -1584 523 -1572)(font "Arial" ))
+	(pt 584 -1568)
+	(pt 440 -1568)
+)
+(connector
+	(text "Kamal_dec[13]" (rect 450 -1736 523 -1724)(font "Arial" ))
+	(pt 584 -1720)
+	(pt 440 -1720)
+)
+(connector
+	(text "Kamal_dec[14]" (rect 450 -1904 523 -1892)(font "Arial" ))
+	(pt 576 -1888)
+	(pt 440 -1888)
+)
+(connector
+	(pt 440 -2080)
+	(pt 440 -2064)
+	(bus)
+)
+(connector
+	(pt 440 -2064)
+	(pt 440 -1888)
+	(bus)
+)
+(connector
+	(text "Kamal_dec[15]" (rect 450 -2080 523 -2068)(font "Arial" ))
+	(pt 440 -2064)
+	(pt 576 -2064)
+)
+(junction (pt 968 160))
+(junction (pt 968 8))
+(junction (pt 968 -136))
+(junction (pt 968 -432))
+(junction (pt 968 -600))
+(junction (pt 968 -760))
+(junction (pt 968 -1904))
+(junction (pt 968 -1736))
+(junction (pt 968 -1584))
+(junction (pt 968 -1408))
+(junction (pt 968 -1240))
+(junction (pt 968 -1072))
+(junction (pt 968 -912))
+(junction (pt 968 -2056))
+(junction (pt 480 -1904))
+(junction (pt 528 -1872))
+(junction (pt 528 -1704))
+(junction (pt 480 -1736))
+(junction (pt 528 -1552))
+(junction (pt 480 -1584))
+(junction (pt 480 -1408))
+(junction (pt 528 -1376))
+(junction (pt 528 -1208))
+(junction (pt 480 -1240))
+(junction (pt 480 -1072))
+(junction (pt 528 -1040))
+(junction (pt 528 -880))
+(junction (pt 480 -912))
+(junction (pt 528 -728))
+(junction (pt 480 -760))
+(junction (pt 480 -600))
+(junction (pt 528 -568))
+(junction (pt 480 -432))
+(junction (pt 528 -400))
+(junction (pt 528 -248))
+(junction (pt 480 -280))
+(junction (pt 528 -104))
+(junction (pt 528 40))
+(junction (pt 480 -136))
+(junction (pt 480 8))
+(junction (pt 528 328))
+(junction (pt 480 296))
+(junction (pt 480 160))
+(junction (pt 528 192))
+(junction (pt 440 -1888))
+(junction (pt 440 -1720))
+(junction (pt 440 -1568))
+(junction (pt 440 -1392))
+(junction (pt 440 312))
+(junction (pt 440 176))
+(junction (pt 440 -120))
+(junction (pt 440 -264))
+(junction (pt 440 -416))
+(junction (pt 440 -584))
+(junction (pt 440 -744))
+(junction (pt 440 -896))
+(junction (pt 440 -1056))
+(junction (pt 440 -1224))
+(junction (pt 440 24))
+(junction (pt 968 -280))
+(junction (pt 440 -2064))
