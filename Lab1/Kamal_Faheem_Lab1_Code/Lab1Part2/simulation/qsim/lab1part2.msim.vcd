@@ -1,0 +1,104 @@
+$comment
+	File created using the following command:
+		vcd file lab1part2.msim.vcd -direction
+$end
+$date
+	Thu Feb 14 15:53:32 2019
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module kamal_mux2to1_vlg_vec_tst $end
+$var reg 1 ! kamal_inputs $end
+$var reg 1 " kamal_inputx $end
+$var reg 1 # kamal_inputy $end
+$var wire 1 $ kamal_outputm $end
+$var wire 1 % sampler $end
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , kamal_inputs~combout $end
+$var wire 1 - kamal_inputy~combout $end
+$var wire 1 . kamal_inputx~combout $end
+$var wire 1 / inst~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+x%
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+0-
+0.
+0/
+$end
+#20000
+1!
+1,
+0%
+#40000
+1"
+0!
+1.
+0,
+1%
+1/
+1$
+#60000
+1!
+1,
+0%
+0/
+0$
+#80000
+1#
+0"
+0!
+1-
+0.
+0,
+1%
+#100000
+1!
+1,
+0%
+1/
+1$
+#120000
+1"
+0!
+1.
+0,
+1%
+#140000
+1!
+1,
+0%
+#160000
+0#
+0"
+0!
+0-
+0.
+0,
+1%
+0/
+0$
+#1000000
