@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\Files\Lab1FullAdder\simulation\qsim
+vkamal_lab1fulladder
+Z1 I?e9L5AhVPV0WOOl7@ZWLO1
+Z2 VWUTWITdMDR;>ZmoiOdOP20
+Z3 dC:\altera\13.0sp1\Files\Lab1FullAdder\simulation\qsim
+Z4 w1550556216
+Z5 8kamal_lab1fulladder.vo
+Z6 Fkamal_lab1fulladder.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 VBin;KMXB>7EZHjYPIaL81
+!s85 0
+Z10 !s108 1550556217.171000
+Z11 !s107 kamal_lab1fulladder.vo|
+Z12 !s90 -work|work|kamal_lab1fulladder.vo|
+!s101 -O0
+vkamal_lab1fulladder_vlg_check_tst
+!i10b 1
+!s100 BRmYEihAz`DUS7[W03Dl52
+I4G:aj475C3_1GBob=00P_1
+VWgVAa:RS7@SE:lK?=Cdnh3
+R3
+Z13 w1550556215
+Z14 8kamal_lab1fulladder.vt
+Z15 Fkamal_lab1fulladder.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1550556217.254000
+Z17 !s107 kamal_lab1fulladder.vt|
+Z18 !s90 -work|work|kamal_lab1fulladder.vt|
+!s101 -O0
+R8
+vkamal_lab1fulladder_vlg_sample_tst
+!i10b 1
+!s100 OT0P<i`NNglhaLCa7b@;U3
+I:P@B@cf[JI^AkDlF[?=l13
+VdXP2dl_TDFXC_az[m9@?V0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vkamal_lab1fulladder_vlg_vec_tst
+!i10b 1
+!s100 M29A9hH91LfkiE6HXEU5d1
+IYAo=QR[6f?C;OX`W3RoHm2
+VTI8=?QT8k71?kzQjdTW_60
+R3
+R13
+R14
+R15
+L0 183
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
