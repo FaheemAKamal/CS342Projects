@@ -1,0 +1,3 @@
+﻿  TakeHomeTest.cpp
+c:\users\raiden\desktop\cs342 lab material\kamal_faheem_takehometest3\kamal_faheem_code\takehometest\takehometest\takehometest.cpp(12): warning C4715: 'dot_product': not all control paths return a value
+  TakeHomeTest.vcxproj -> C:\Users\Raiden\Desktop\CS342 Lab Material\Kamal_Faheem_TakeHomeTest3\Kamal_Faheem_Code\TakeHomeTest\Debug\TakeHomeTest.exe

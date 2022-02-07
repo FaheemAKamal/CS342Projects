@@ -1,0 +1,6 @@
+﻿  TakeHomeTestActualDPPS.cpp
+c:\users\raiden\desktop\cs342 lab material\kamal_faheem_takehometest3\kamal_faheem_code\takehometest3dpps\takehometest3dpps\takehometestactualdpps.cpp(21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\raiden\desktop\cs342 lab material\kamal_faheem_takehometest3\kamal_faheem_code\takehometest3dpps\takehometest3dpps\takehometestactualdpps.cpp(22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  TakeHomeTest3DPPS.cpp
+c:\users\raiden\desktop\cs342 lab material\kamal_faheem_takehometest3\kamal_faheem_code\takehometest3dpps\takehometest3dpps\takehometest3dpps.cpp(27): warning C4715: 'dot_product': not all control paths return a value
+  TakeHomeTest3DPPS.vcxproj -> C:\Users\Raiden\Desktop\CS342 Lab Material\Kamal_Faheem_TakeHomeTest3\Kamal_Faheem_Code\TakeHomeTest3DPPS\Debug\TakeHomeTest3DPPS.exe
