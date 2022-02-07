@@ -1,0 +1,5 @@
+To, Location
+data[2],PIN_AB28
+data[1],PIN_AC28
+data[0],PIN_AC27
+eq7,PIN_G19
