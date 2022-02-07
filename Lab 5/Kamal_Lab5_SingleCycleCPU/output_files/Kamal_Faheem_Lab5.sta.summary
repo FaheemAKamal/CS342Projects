@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Kamal_Clock'
+Slack : -4.029
+TNS   : -335.572
+
+Type  : Slow 1200mV 85C Model Setup 'Kamal_Run'
+Slack : -3.764
+TNS   : -30.112
+
+Type  : Slow 1200mV 85C Model Setup 'Kamal_LoadforCounter'
+Slack : -1.192
+TNS   : -8.748
+
+Type  : Slow 1200mV 85C Model Hold 'Kamal_Clock'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Kamal_LoadforCounter'
+Slack : 0.480
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Kamal_Run'
+Slack : 0.766
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Kamal_Clock'
+Slack : -3.000
+TNS   : -404.257
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Kamal_LoadforCounter'
+Slack : -3.000
+TNS   : -15.850
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Kamal_Run'
+Slack : -3.000
+TNS   : -13.280
+
+Type  : Slow 1200mV 0C Model Setup 'Kamal_Clock'
+Slack : -3.653
+TNS   : -291.306
+
+Type  : Slow 1200mV 0C Model Setup 'Kamal_Run'
+Slack : -3.321
+TNS   : -26.568
+
+Type  : Slow 1200mV 0C Model Setup 'Kamal_LoadforCounter'
+Slack : -0.965
+TNS   : -6.806
+
+Type  : Slow 1200mV 0C Model Hold 'Kamal_Clock'
+Slack : 0.198
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Kamal_LoadforCounter'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Kamal_Run'
+Slack : 0.650
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Kamal_Clock'
+Slack : -3.000
+TNS   : -397.701
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Kamal_LoadforCounter'
+Slack : -3.000
+TNS   : -15.850
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Kamal_Run'
+Slack : -3.000
+TNS   : -13.280
+
+Type  : Fast 1200mV 0C Model Setup 'Kamal_Clock'
+Slack : -1.621
+TNS   : -62.220
+
+Type  : Fast 1200mV 0C Model Setup 'Kamal_Run'
+Slack : -1.429
+TNS   : -11.432
+
+Type  : Fast 1200mV 0C Model Setup 'Kamal_LoadforCounter'
+Slack : -0.062
+TNS   : -0.120
+
+Type  : Fast 1200mV 0C Model Hold 'Kamal_Clock'
+Slack : 0.035
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Kamal_LoadforCounter'
+Slack : 0.219
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Kamal_Run'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Kamal_Clock'
+Slack : -3.000
+TNS   : -186.370
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Kamal_LoadforCounter'
+Slack : -3.000
+TNS   : -14.840
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Kamal_Run'
+Slack : -3.000
+TNS   : -13.272
+
+------------------------------------------------------------

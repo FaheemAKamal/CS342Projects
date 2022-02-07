@@ -1,0 +1,167 @@
+Flow report for Kamal_Faheem_Lab5
+Mon May 13 18:49:27 2019
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Mon May 13 18:49:23 2019           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; Kamal_Faheem_Lab5                               ;
+; Top-level Entity Name              ; Kamal_SingleCycleCPU                            ;
+; Family                             ; Cyclone IV E                                    ;
+; Device                             ; EP4CE115F29C7                                   ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 152 / 114,480 ( < 1 % )                         ;
+;     Total combinational functions  ; 152 / 114,480 ( < 1 % )                         ;
+;     Dedicated logic registers      ; 18 / 114,480 ( < 1 % )                          ;
+; Total registers                    ; 18                                              ;
+; Total pins                         ; 72 / 529 ( 14 % )                               ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 18,432 / 3,981,312 ( < 1 % )                    ;
+; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                                 ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                                   ;
++------------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/13/2019 18:48:57 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Kamal_Faheem_Lab5   ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                             ;
++-------------------------------------+--------------------------------+-------------------+----------------------+------------+
+; Assignment Name                     ; Value                          ; Default Value     ; Entity Name          ; Section Id ;
++-------------------------------------+--------------------------------+-------------------+----------------------+------------+
+; COMPILER_SIGNATURE_ID               ; 53447176876193.155778773733104 ; --                ; --                   ; --         ;
+; IP_TOOL_NAME                        ; RAM: 2-PORT                    ; --                ; --                   ; --         ;
+; IP_TOOL_NAME                        ; LPM_MUX                        ; --                ; --                   ; --         ;
+; IP_TOOL_NAME                        ; LPM_MUX                        ; --                ; --                   ; --         ;
+; IP_TOOL_NAME                        ; LPM_MUX                        ; --                ; --                   ; --         ;
+; IP_TOOL_NAME                        ; LPM_SHIFTREG                   ; --                ; --                   ; --         ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                    ; --                ; --                   ; --         ;
+; IP_TOOL_NAME                        ; RAM: 2-PORT                    ; --                ; --                   ; --         ;
+; IP_TOOL_NAME                        ; LPM_ADD_SUB                    ; --                ; --                   ; --         ;
+; IP_TOOL_NAME                        ; LPM_ADD_SUB                    ; --                ; --                   ; --         ;
+; IP_TOOL_NAME                        ; LPM_ADD_SUB                    ; --                ; --                   ; --         ;
+; IP_TOOL_NAME                        ; RAM: 2-PORT                    ; --                ; --                   ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                           ; --                ; --                   ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                           ; --                ; --                   ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                           ; --                ; --                   ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                           ; --                ; --                   ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                           ; --                ; --                   ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                           ; --                ; --                   ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                           ; --                ; --                   ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                           ; --                ; --                   ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                           ; --                ; --                   ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                           ; --                ; --                   ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                           ; --                ; --                   ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                             ; --                ; --                   ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                              ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_SRAM.bsf                 ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_SRAM.cmp                 ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_SevenSegmentMux.bsf      ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_SevenSegmentMux.cmp      ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_32bitMux.bsf             ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_32bitMux.cmp             ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_5bitMux.bsf              ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_5bitMux.cmp              ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_InstructionRegister.bsf  ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_InstructionRegister.cmp  ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_Counter.bsf              ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_Counter.cmp              ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_Memory.bsf               ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_Memory.cmp               ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_ALU.bsf                  ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_ALU.cmp                  ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_32BitAdder.bsf           ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_32BitAdder.cmp           ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_32BitAdderwith1input.bsf ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_32BitAdderwith1input.cmp ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_Load32bit.bsf            ; --                ; --                   ; --         ;
+; MISC_FILE                           ; Kamal_Load32bit.cmp            ; --                ; --                   ; --         ;
+; PARTITION_COLOR                     ; 16764057                       ; --                ; Kamal_SingleCycleCPU ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --                ; Kamal_SingleCycleCPU ; Top        ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --                ; Kamal_SingleCycleCPU ; Top        ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --                ; --                   ; --         ;
+; TOP_LEVEL_ENTITY                    ; Kamal_SingleCycleCPU           ; Kamal_Faheem_Lab5 ; --                   ; --         ;
++-------------------------------------+--------------------------------+-------------------+----------------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4701 MB             ; 00:00:03                           ;
+; Fitter                    ; 00:00:17     ; 1.0                     ; 5099 MB             ; 00:00:17                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 4587 MB             ; 00:00:04                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4684 MB             ; 00:00:03                           ;
+; Total                     ; 00:00:27     ; --                      ; --                  ; 00:00:27                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; MSI              ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; MSI              ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; MSI              ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; MSI              ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Kamal_Faheem_Lab5 -c Kamal_Faheem_Lab5
+quartus_fit --read_settings_files=off --write_settings_files=off Kamal_Faheem_Lab5 -c Kamal_Faheem_Lab5
+quartus_asm --read_settings_files=off --write_settings_files=off Kamal_Faheem_Lab5 -c Kamal_Faheem_Lab5
+quartus_sta Kamal_Faheem_Lab5 -c Kamal_Faheem_Lab5
+
+
+
